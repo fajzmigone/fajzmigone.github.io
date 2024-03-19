@@ -1,0 +1,30 @@
+---
+title: Research
+---
+
+## Job Quality and Poverty in developping countries : Evidence from Côte d'Ivoire
+
+<a href="https://drive.google.com/file/d/1jo8JqBBzvfliCmEQC0UG4NHShR-NiNCe/view?usp=sharing" target="_blank">Working Paper</a> <br>
+
+This study analyzes the influence of household members’ job quality on the household poverty status in Côte d'Ivoire using data from the 2018 Harmonized Survey of Household Living Conditions. Using simple
+probit regressions, this study highlights the significant negative effect of a household head’s job quality on
+household poverty risk. It also shows that improving the job quality of other household members reduces
+the risk of household poverty. In addition to promoting improved employment conditions for workers,
+policymakers should promote women's access to high-quality jobs. This could involve investing in social
+facilities to relieve the burden of caring for children in the household.
+----
+
+## Causal Impact of Armed Conflicts on Education Outcome in Mali
+
+<a href="https://drive.google.com/file/d/1kvELyRo6ru2XATIfZkzbS5NQ27Km8HPY/view?usp=sharing" target="_blank">Working paper</a> <br>
+
+This study, using a double-difference methodology and propensity score matching (PSMs), analyses
+the causal impact of Mali's prolonged crises and conflicts on the Malian education system. The
+results indicate that these events have had a significant and negative impact on education, resulting
+in a drop in the average number of years of education between the generations that attended school
+during the conflict and the previous generation, ranging from 1.13 to 1.97 years of education. These
+findings underline the urgency of taking measures to mitigate these adverse effects and re-establish
+a functional education system in the country, highlighting the importance of understanding the
+causal impact of the crises on education in Mali.
+
+

@@ -4,17 +4,19 @@
 website:
   title: "Franck MIGONE"                                # Your name
   description: "Economics powered by AI for decision making"   # A brief slogan (optional)
-  image: img/my_image.jpg
+  image: img/fmigone.jpg
   
-  favicon: img/favicon.png
+  #favicon: img/favicon.png
   
   # start of the navigation bar at the top of the website
   navbar:
     pinned: true
-    logo: /img/logo.png
+    #logo: /img/logo.png
     
     # your sub-pages
     left:
+      - text: "Research"
+        href: research/index.qmd
       - text: "Projects"
         href: projects/index.qmd
       - text: "Photography"
@@ -25,7 +27,7 @@ website:
     # your social media handles
     right:
       - icon: folder-symlink
-        href: https://www.marvinschmitt.com/blog/website-tutorial-quarto/
+        href: https://fajzmigone.github.io/
       - icon: twitter
         href: https://twitter.com/fajmigone
       - icon: linkedin
