@@ -1,0 +1,75 @@
+# This file controls the settings for your Quarto template from www.marvinschmitt.com
+
+# website settings
+website:
+  title: "Franck MIGONE"                                # Your name
+  description: "Economics powered by AI for decision making"   # A brief slogan (optional)
+  image: img/my_image.jpg
+  
+  favicon: img/favicon.png
+  
+  # start of the navigation bar at the top of the website
+  navbar:
+    pinned: true
+    logo: /img/logo.png
+    
+    # your sub-pages
+    left:
+      - text: "Projects"
+        href: projects/index.qmd
+      - text: "Photography"
+        href: photography/index.qmd
+      - text: "CV"
+        href: cv/index.qmd
+    
+    # your social media handles
+    right:
+      - icon: folder-symlink
+        href: https://www.marvinschmitt.com/blog/website-tutorial-quarto/
+      - icon: twitter
+        href: https://twitter.com/fajmigone
+      - icon: linkedin
+        href: https://www.linkedin.com/in/franck-migone/
+      - icon: envelope
+        aria-label: email
+        href: "mailto:franckmigone@gmail.com"  
+  
+  
+
+# Don't touch unless you know what you are doing :) ------------
+  search: 
+    location: navbar
+    type: textbox
+  page-footer: 
+    left: |
+      <span class="faux-block">&#169; 2023 Franck MIGONE CC BY-SA 4.0</span>
+    center: |
+       
+    right: |
+      
+
+project:
+  type: website
+  output-dir: docs
+
+  preview: 
+    port: 22222
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+execute:
+  freeze: true
+
+format:
+  html:
+    fontsize: 1.1em
+    theme: 
+      - pulse
+      - html/styles.scss
+    toc: false
+    code-link: true
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true
