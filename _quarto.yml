@@ -19,10 +19,13 @@ website:
         href: research/index.qmd
       - text: "Projects"
         href: projects/index.qmd
-      - text: "Photography"
-        href: photography/index.qmd
+      - text: "Teaching & Useful Ressources"
+        href: Useful_Ressources/index.qmd
       - text: "CV"
         href: cv/index.qmd
+      - text: "Econ Blog"
+        href: https://econpolicyml.substack.com/
+      
     
     # your social media handles
     right:
@@ -44,7 +47,7 @@ website:
     type: textbox
   page-footer: 
     left: |
-      <span class="faux-block">&#169; 2023 Franck MIGONE CC BY-SA 4.0</span>
+      <span class="faux-block">&#169; 2024 Franck MIGONE CC BY-SA 4.0</span>
     center: |
        
     right: |

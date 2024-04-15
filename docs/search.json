@@ -4,7 +4,7 @@
     "href": "cv/index.html",
     "title": "Curriculum vitae",
     "section": "",
-    "text": "Download current CV\n  \n\n\n  \n\n\nView the tutorial for this template (+ download link)"
+    "text": "Download current CV"
   },
   {
     "objectID": "index.html",
@@ -12,13 +12,6 @@
     "title": "Welcome to my website!",
     "section": "",
     "text": "Twitter\n  \n  \n    \n     Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email\n  \n\n\n\n\nWelcome to my website!\nJe m’appelle Franck Migoné, et je suis un économiste et statisticien passionné par l’analyse des données et le développement économique. Actuellement, je travaille à l’Institut National de la Statistique de Côte d’Ivoire en tant qu’économiste statisticien depuis février 2021 en charge des questions de reforme, d’innovation. Je m’occupe également des sujets IA, Big Data au sein de l’institut. Mon rôle consiste à analyser les données économiques et à fournir des informations essentielles pour la prise de décision. Vous trouverez ici les travaux de recherche, projets passionnants qui m’occupent ainsi que mes réflexions sur l’économie ivoirienne et sous-régionale.\nPlease feel free to contact me"
-  },
-  {
-    "objectID": "photography/index.html",
-    "href": "photography/index.html",
-    "title": "Photography",
-    "section": "",
-    "text": "As a wizard and scholar of Middle-earth, I have been studying the magic of the natural world for centuries. Through my self-portraits, I aim to capture the essence of my own being and reflect on my own journey through time. Each photograph is a reflection of my own experiences and emotions. Through my photography, I hope to offer a glimpse into my life as a scholar and adventurer, and inspire others to reflect on their own journeys through the world.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nView the tutorial for this template (+ download link)"
   },
   {
     "objectID": "projects/index.html",
@@ -61,5 +54,40 @@
     "title": "Research",
     "section": "Causal Impact of Armed Conflicts on Education Outcome in Mali",
     "text": "Causal Impact of Armed Conflicts on Education Outcome in Mali\nWorking paper \nThis study, using a double-difference methodology and propensity score matching (PSMs), analyses the causal impact of Mali’s prolonged crises and conflicts on the Malian education system. The results indicate that these events have had a significant and negative impact on education, resulting in a drop in the average number of years of education between the generations that attended school during the conflict and the previous generation, ranging from 1.13 to 1.97 years of education. These findings underline the urgency of taking measures to mitigate these adverse effects and re-establish a functional education system in the country, highlighting the importance of understanding the causal impact of the crises on education in Mali."
+  },
+  {
+    "objectID": "research/index.html#transmission-intergenerationnelle-de-lemploi",
+    "href": "research/index.html#transmission-intergenerationnelle-de-lemploi",
+    "title": "Research",
+    "section": "Transmission Intergenerationnelle de l’emploi",
+    "text": "Transmission Intergenerationnelle de l’emploi\nWork in progress"
+  },
+  {
+    "objectID": "Useful_Ressources/index.html",
+    "href": "Useful_Ressources/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "Working Paper \nThis study analyzes the influence of household members’ job quality on the household poverty status in Côte d’Ivoire using data from the 2018 Harmonized Survey of Household Living Conditions. Using simple probit regressions, this study highlights the significant negative effect of a household head’s job quality on household poverty risk. It also shows that improving the job quality of other household members reduces the risk of household poverty. In addition to promoting improved employment conditions for workers, policymakers should promote women’s access to high-quality jobs. This could involve investing in social facilities to relieve the burden of caring for children in the household. —-"
+  },
+  {
+    "objectID": "Useful_Ressources/index.html#job-quality-and-poverty-in-developping-countries-evidence-from-côte-divoire",
+    "href": "Useful_Ressources/index.html#job-quality-and-poverty-in-developping-countries-evidence-from-côte-divoire",
+    "title": "Research",
+    "section": "",
+    "text": "Working Paper \nThis study analyzes the influence of household members’ job quality on the household poverty status in Côte d’Ivoire using data from the 2018 Harmonized Survey of Household Living Conditions. Using simple probit regressions, this study highlights the significant negative effect of a household head’s job quality on household poverty risk. It also shows that improving the job quality of other household members reduces the risk of household poverty. In addition to promoting improved employment conditions for workers, policymakers should promote women’s access to high-quality jobs. This could involve investing in social facilities to relieve the burden of caring for children in the household. —-"
+  },
+  {
+    "objectID": "Useful_Ressources/index.html#causal-impact-of-armed-conflicts-on-education-outcome-in-mali",
+    "href": "Useful_Ressources/index.html#causal-impact-of-armed-conflicts-on-education-outcome-in-mali",
+    "title": "Research",
+    "section": "Causal Impact of Armed Conflicts on Education Outcome in Mali",
+    "text": "Causal Impact of Armed Conflicts on Education Outcome in Mali\nWorking paper \nThis study, using a double-difference methodology and propensity score matching (PSMs), analyses the causal impact of Mali’s prolonged crises and conflicts on the Malian education system. The results indicate that these events have had a significant and negative impact on education, resulting in a drop in the average number of years of education between the generations that attended school during the conflict and the previous generation, ranging from 1.13 to 1.97 years of education. These findings underline the urgency of taking measures to mitigate these adverse effects and re-establish a functional education system in the country, highlighting the importance of understanding the causal impact of the crises on education in Mali."
+  },
+  {
+    "objectID": "Useful_Ressources/index.html#transmission-intergenerationnelle-de-lemploi",
+    "href": "Useful_Ressources/index.html#transmission-intergenerationnelle-de-lemploi",
+    "title": "Research",
+    "section": "Transmission Intergenerationnelle de l’emploi",
+    "text": "Transmission Intergenerationnelle de l’emploi\nWork in progress"
   }
 ]
