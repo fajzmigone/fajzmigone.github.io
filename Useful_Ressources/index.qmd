@@ -1,34 +1,31 @@
 ---
-title: Research
+title: Teaching, Conference & Useful Ressources
 ---
 
-## Job Quality and Poverty in developping countries : Evidence from Côte d'Ivoire
+## Teaching
 
-<a href="https://drive.google.com/file/d/1jo8JqBBzvfliCmEQC0UG4NHShR-NiNCe/view?usp=sharing" target="_blank">Working Paper</a> <br>
+### 2022
 
-This study analyzes the influence of household members’ job quality on the household poverty status in Côte d'Ivoire using data from the 2018 Harmonized Survey of Household Living Conditions. Using simple
-probit regressions, this study highlights the significant negative effect of a household head’s job quality on
-household poverty risk. It also shows that improving the job quality of other household members reduces
-the risk of household poverty. In addition to promoting improved employment conditions for workers,
-policymakers should promote women's access to high-quality jobs. This could involve investing in social
-facilities to relieve the burden of caring for children in the household.
-----
+- Travaux Dirigés Econométrie - Licence 3 Economie & Gestion - *Université Catholique d’Afrique de l’Ouest (UCAO) Abidjan*
 
-## Causal Impact of Armed Conflicts on Education Outcome in Mali
+### 2023
 
-<a href="https://drive.google.com/file/d/1kvELyRo6ru2XATIfZkzbS5NQ27Km8HPY/view?usp=sharing" target="_blank">Working paper</a> <br>
+- Travaux Dirigés Econométrie - Licence 3 Economie & Gestion - Université Catholique d’Afrique de l’Ouest (UCAO) Abidjan 
 
-This study, using a double-difference methodology and propensity score matching (PSMs), analyses
-the causal impact of Mali's prolonged crises and conflicts on the Malian education system. The
-results indicate that these events have had a significant and negative impact on education, resulting
-in a drop in the average number of years of education between the generations that attended school
-during the conflict and the previous generation, ranging from 1.13 to 1.97 years of education. These
-findings underline the urgency of taking measures to mitigate these adverse effects and re-establish
-a functional education system in the country, highlighting the importance of understanding the
-causal impact of the crises on education in Mali.
+## Infographics for research paper
 
-## Transmission Intergenerationnelle de l'emploi 
+1. [**Stata Code**](https://worldbank.github.io/stata-visual-library/)  
+2. [**R Code**](https://worldbank.github.io/r-econ-visual-library/)  
+3. [**An Economist’s Guide to Visualizing Data**](https://gouvci-my.sharepoint.com/:b:/g/personal/j_migone_stat_plan_gouv_ci/EaRbnR7TnC5PuEZwnGvOtAgB6QXQmq6qmWWLa4oVB7dR1g?e=QFUw3M) 
 
-Work in progress
+## Conferences and Research Seminars
 
+1. 3rd International Association of Official Statistics (IAOS) - 17th International Statistic Institute (ISI) Conference in Zambia Livingstone - April 2023
+2. 4th International Association of Official Statistics (IAOS) - 19th International Statistic Institute (ISI) Conference in Mexico - May 2024 *failed to present due to VISA*
 
+## Other
+
+1.  [**Causal Inference Book : Causality for Brave and True**](https://matheusfacure.github.io/python-causality-handbook/landing-page.html)  
+2. **Econimate** : I love [**youtube.com/econimate**](https://t.co/5O0ziYSjJy) for the way to explain economics research
+3. [**Pulic speaking for academic economists from Rachael Meager**](https://gouvci-my.sharepoint.com/:b:/g/personal/j_migone_stat_plan_gouv_ci/EbLOkKzRI5tNs2JG9tTGwFoBXj5IbXdcpepUSA_MRmcjjg?e=8mnZ5F)  
+4. [**Micro-simuler l’impact des politiques publiques sur les ménages : pourquoi, comment et lesquelles**](https://gouvci-my.sharepoint.com/:b:/g/personal/j_migone_stat_plan_gouv_ci/EbLOkKzRI5tNs2JG9tTGwFoBXj5IbXdcpepUSA_MRmcjjg?e=YH6Qcw)

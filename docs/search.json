@@ -1,17 +1,38 @@
 [
   {
-    "objectID": "cv/index.html",
-    "href": "cv/index.html",
-    "title": "Curriculum vitae",
+    "objectID": "Useful_Ressources/index.html",
+    "href": "Useful_Ressources/index.html",
+    "title": "Teaching, Conference & Useful Ressources",
     "section": "",
-    "text": "Download current CV"
+    "text": "Travaux Dirigés Econométrie - Licence 3 Economie & Gestion - Université Catholique d’Afrique de l’Ouest (UCAO) Abidjan\n\n\n\n\n\nTravaux Dirigés Econométrie - Licence 3 Economie & Gestion - Université Catholique d’Afrique de l’Ouest (UCAO) Abidjan"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to my website!",
+    "objectID": "Useful_Ressources/index.html#teaching",
+    "href": "Useful_Ressources/index.html#teaching",
+    "title": "Teaching, Conference & Useful Ressources",
     "section": "",
-    "text": "Twitter\n  \n  \n    \n     Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email\n  \n\n\n\n\nWelcome to my website!\nJe m’appelle Franck Migoné, et je suis un économiste et statisticien passionné par l’analyse des données et le développement économique. Actuellement, je travaille à l’Institut National de la Statistique de Côte d’Ivoire en tant qu’économiste statisticien depuis février 2021 en charge des questions de reforme, d’innovation. Je m’occupe également des sujets IA, Big Data au sein de l’institut. Mon rôle consiste à analyser les données économiques et à fournir des informations essentielles pour la prise de décision. Vous trouverez ici les travaux de recherche, projets passionnants qui m’occupent ainsi que mes réflexions sur l’économie ivoirienne et sous-régionale.\nPlease feel free to contact me"
+    "text": "Travaux Dirigés Econométrie - Licence 3 Economie & Gestion - Université Catholique d’Afrique de l’Ouest (UCAO) Abidjan\n\n\n\n\n\nTravaux Dirigés Econométrie - Licence 3 Economie & Gestion - Université Catholique d’Afrique de l’Ouest (UCAO) Abidjan"
+  },
+  {
+    "objectID": "Useful_Ressources/index.html#infographics-for-research-paper",
+    "href": "Useful_Ressources/index.html#infographics-for-research-paper",
+    "title": "Teaching, Conference & Useful Ressources",
+    "section": "Infographics for research paper",
+    "text": "Infographics for research paper\n\nStata Code\n\nR Code\n\nAn Economist’s Guide to Visualizing Data"
+  },
+  {
+    "objectID": "Useful_Ressources/index.html#conferences-and-research-seminars",
+    "href": "Useful_Ressources/index.html#conferences-and-research-seminars",
+    "title": "Teaching, Conference & Useful Ressources",
+    "section": "Conferences and Research Seminars",
+    "text": "Conferences and Research Seminars\n\n3rd International Association of Official Statistics (IAOS) - 17th International Statistic Institute (ISI) Conference in Zambia Livingstone - April 2023\n4th International Association of Official Statistics (IAOS) - 19th International Statistic Institute (ISI) Conference in Mexico - May 2024 failed to present due to VISA"
+  },
+  {
+    "objectID": "Useful_Ressources/index.html#other",
+    "href": "Useful_Ressources/index.html#other",
+    "title": "Teaching, Conference & Useful Ressources",
+    "section": "Other",
+    "text": "Other\n\nCausal Inference Book : Causality for Brave and True\n\nEconimate : I love youtube.com/econimate for the way to explain economics research\nPulic speaking for academic economists from Rachael Meager\n\nMicro-simuler l’impact des politiques publiques sur les ménages : pourquoi, comment et lesquelles"
   },
   {
     "objectID": "projects/index.html",
@@ -35,6 +56,20 @@
     "text": "The History of the War of the Ring\n\narXiv Preprint | Code\nI am creating a comprehensive and detailed history of the conflict that goes beyond the surface-level events. By gathering information from a variety of sources, including my own memories, written accounts, and oral histories, I hope to shed new light on this important period in Middle-earth’s history and provide valuable insights into the motivations and actions of the various players involved.\n\nView the tutorial for this template (+ download link)"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Franck MIGONE",
+    "section": "",
+    "text": "Twitter\n  \n  \n    \n     Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email\n  \n\n\n\n\nWelcome to my website!\nEconomist and statistician with a passion for data analysis and economic development. Since February 2021, I have been working at the National Agency of Statistics (ANSTAT) of Côte d’Ivoire as an economist and statistician, responsible for issues related to reform and innovation. I also handle topics related to AI and Big Data within the institute. My role involves analyzing economic data and providing essential information for decision-making.\nHere, you will find my research work, exciting projects that occupy my time, and my reflections on the ivorian and west african economies.\nPlease feel free to contact me"
+  },
+  {
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "Curriculum vitae",
+    "section": "",
+    "text": "Download current CV"
+  },
+  {
     "objectID": "research/index.html",
     "href": "research/index.html",
     "title": "Research",
@@ -53,41 +88,13 @@
     "href": "research/index.html#causal-impact-of-armed-conflicts-on-education-outcome-in-mali",
     "title": "Research",
     "section": "Causal Impact of Armed Conflicts on Education Outcome in Mali",
-    "text": "Causal Impact of Armed Conflicts on Education Outcome in Mali\nWorking paper \nThis study, using a double-difference methodology and propensity score matching (PSMs), analyses the causal impact of Mali’s prolonged crises and conflicts on the Malian education system. The results indicate that these events have had a significant and negative impact on education, resulting in a drop in the average number of years of education between the generations that attended school during the conflict and the previous generation, ranging from 1.13 to 1.97 years of education. These findings underline the urgency of taking measures to mitigate these adverse effects and re-establish a functional education system in the country, highlighting the importance of understanding the causal impact of the crises on education in Mali."
+    "text": "Causal Impact of Armed Conflicts on Education Outcome in Mali\nwith Josias Sadia  Working paper \nThis study, using a double-difference methodology and propensity score matching (PSMs), analyses the causal impact of Mali’s prolonged crises and conflicts on the Malian education system. The results indicate that these events have had a significant and negative impact on education, resulting in a drop in the average number of years of education between the generations that attended school during the conflict and the previous generation, ranging from 1.13 to 1.97 years of education. These findings underline the urgency of taking measures to mitigate these adverse effects and re-establish a functional education system in the country, highlighting the importance of understanding the causal impact of the crises on education in Mali."
   },
   {
-    "objectID": "research/index.html#transmission-intergenerationnelle-de-lemploi",
-    "href": "research/index.html#transmission-intergenerationnelle-de-lemploi",
+    "objectID": "research/index.html#work-in-progress",
+    "href": "research/index.html#work-in-progress",
     "title": "Research",
-    "section": "Transmission Intergenerationnelle de l’emploi",
-    "text": "Transmission Intergenerationnelle de l’emploi\nWork in progress"
-  },
-  {
-    "objectID": "Useful_Ressources/index.html",
-    "href": "Useful_Ressources/index.html",
-    "title": "Research",
-    "section": "",
-    "text": "Working Paper \nThis study analyzes the influence of household members’ job quality on the household poverty status in Côte d’Ivoire using data from the 2018 Harmonized Survey of Household Living Conditions. Using simple probit regressions, this study highlights the significant negative effect of a household head’s job quality on household poverty risk. It also shows that improving the job quality of other household members reduces the risk of household poverty. In addition to promoting improved employment conditions for workers, policymakers should promote women’s access to high-quality jobs. This could involve investing in social facilities to relieve the burden of caring for children in the household. —-"
-  },
-  {
-    "objectID": "Useful_Ressources/index.html#job-quality-and-poverty-in-developping-countries-evidence-from-côte-divoire",
-    "href": "Useful_Ressources/index.html#job-quality-and-poverty-in-developping-countries-evidence-from-côte-divoire",
-    "title": "Research",
-    "section": "",
-    "text": "Working Paper \nThis study analyzes the influence of household members’ job quality on the household poverty status in Côte d’Ivoire using data from the 2018 Harmonized Survey of Household Living Conditions. Using simple probit regressions, this study highlights the significant negative effect of a household head’s job quality on household poverty risk. It also shows that improving the job quality of other household members reduces the risk of household poverty. In addition to promoting improved employment conditions for workers, policymakers should promote women’s access to high-quality jobs. This could involve investing in social facilities to relieve the burden of caring for children in the household. —-"
-  },
-  {
-    "objectID": "Useful_Ressources/index.html#causal-impact-of-armed-conflicts-on-education-outcome-in-mali",
-    "href": "Useful_Ressources/index.html#causal-impact-of-armed-conflicts-on-education-outcome-in-mali",
-    "title": "Research",
-    "section": "Causal Impact of Armed Conflicts on Education Outcome in Mali",
-    "text": "Causal Impact of Armed Conflicts on Education Outcome in Mali\nWorking paper \nThis study, using a double-difference methodology and propensity score matching (PSMs), analyses the causal impact of Mali’s prolonged crises and conflicts on the Malian education system. The results indicate that these events have had a significant and negative impact on education, resulting in a drop in the average number of years of education between the generations that attended school during the conflict and the previous generation, ranging from 1.13 to 1.97 years of education. These findings underline the urgency of taking measures to mitigate these adverse effects and re-establish a functional education system in the country, highlighting the importance of understanding the causal impact of the crises on education in Mali."
-  },
-  {
-    "objectID": "Useful_Ressources/index.html#transmission-intergenerationnelle-de-lemploi",
-    "href": "Useful_Ressources/index.html#transmission-intergenerationnelle-de-lemploi",
-    "title": "Research",
-    "section": "Transmission Intergenerationnelle de l’emploi",
-    "text": "Transmission Intergenerationnelle de l’emploi\nWork in progress"
+    "section": "Work in progress",
+    "text": "Work in progress\n\nTransmission intergénérationelle de l’emploi avec Gon Emmanuel Coulibaly\nEstimation of Poverty with satellite imagery in developing countries : evidence from Côte d’Ivoire with Kone Kinin Mamadou, Daouda Doukouré, Sibahi Obou\nDiscrimination à l’entrée sur le marché du travail avec Josias Sadia\nEmotional & Physical Violence against children and school attainment in Côte d’Ivoire with VACS"
   }
 ]

@@ -9,7 +9,7 @@ about:
       href: https://twitter.com/fajmigone
     - icon: github
       text: Github
-      href: https://github.com/fajzmigone
+      href: https://github.com/fmigone
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/franck-migone/
@@ -21,11 +21,11 @@ about:
 ::: {#about-block}
 :::
 
-# Welcome to my website!
+### Welcome to my website!
 
-Je m’appelle Franck Migoné, et je suis un économiste et statisticien passionné par l’analyse des données et le développement économique. 
-Actuellement, je travaille à l’Institut National de la Statistique de Côte d’Ivoire en tant qu’économiste statisticien depuis février 2021 en charge des questions de reforme, d'innovation. Je m'occupe également des sujets IA, Big Data au sein de l'institut. Mon rôle consiste à analyser les données économiques et à fournir des informations essentielles pour la prise de décision.
-Vous trouverez ici les travaux de recherche, projets passionnants qui m'occupent ainsi que mes réflexions sur l'économie ivoirienne et sous-régionale. 
+Economist and statistician with a passion for data analysis and economic development. Since February 2021, I have been working at the National Agency of Statistics (ANSTAT) of Côte d'Ivoire as an economist and statistician, responsible for issues related to reform and innovation. I also handle topics related to AI and Big Data within the institute. My role involves analyzing economic data and providing essential information for decision-making.
+
+Here, you will find my research work, exciting projects that occupy my time, and my reflections on the ivorian and west african economies.
 
 Please feel free to [contact me](mailto:franckmigone@gmail.com) 
 

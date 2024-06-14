@@ -14,12 +14,12 @@ website:
     #logo: /img/logo.png
     
     # your sub-pages
-    left:
+    right:
       - text: "Research"
         href: research/index.qmd
-      - text: "Projects"
-        href: projects/index.qmd
-      - text: "Teaching & Useful Ressources"
+      #- text: "Projects"
+       # href: projects/index.qmd
+      - text: "Teaching"
         href: Useful_Ressources/index.qmd
       - text: "CV"
         href: cv/index.qmd
@@ -28,7 +28,7 @@ website:
       
     
     # your social media handles
-    right:
+    left:
       - icon: folder-symlink
         href: https://fajzmigone.github.io/
       - icon: twitter

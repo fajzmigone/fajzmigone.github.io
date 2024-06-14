@@ -15,7 +15,7 @@ facilities to relieve the burden of caring for children in the household.
 ----
 
 ## Causal Impact of Armed Conflicts on Education Outcome in Mali
-
+*with Josias Sadia* <br>
 <a href="https://drive.google.com/file/d/1kvELyRo6ru2XATIfZkzbS5NQ27Km8HPY/view?usp=sharing" target="_blank">Working paper</a> <br>
 
 This study, using a double-difference methodology and propensity score matching (PSMs), analyses
@@ -27,8 +27,9 @@ findings underline the urgency of taking measures to mitigate these adverse effe
 a functional education system in the country, highlighting the importance of understanding the
 causal impact of the crises on education in Mali.
 
-## Transmission Intergenerationnelle de l'emploi 
+## *Work in progress*
 
-Work in progress
-
-
+1. Transmission intergénérationelle de l'emploi avec *Gon Emmanuel Coulibaly*
+2. Estimation of Poverty with satellite imagery in developing countries : evidence from Côte d’Ivoire with *Kone Kinin Mamadou*, *Daouda Doukouré*, *Sibahi Obou*
+3. Discrimination à l’entrée sur le marché du travail avec *Josias Sadia*
+4. Emotional & Physical Violence against children and school attainment in Côte d’Ivoire with VACS
