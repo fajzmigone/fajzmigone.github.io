@@ -12,6 +12,10 @@ title: Teaching, Conference & Useful Ressources
 
 - Travaux Dirigés Econométrie - Licence 3 Economie & Gestion - Université Catholique d’Afrique de l’Ouest (UCAO) Abidjan 
 
+### 2025
+
+- Sondage (échantillonnage) STT 504 - Master 2 DataScience & Statistiques - Université Soumaré Abidjan 
+
 ## Infographics for research paper
 
 1. [**Stata Code**](https://worldbank.github.io/stata-visual-library/)  

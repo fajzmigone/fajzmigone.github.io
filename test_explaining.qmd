@@ -1,0 +1,257 @@
+**\# Price Range Validation System**
+
+**\## Technical Documentation**
+
+**\### 1. Overview**
+
+This document describes a data validation system implemented in Python that processes product pricing data and validates it against predefined price ranges. The system reads historical data from Excel files, establishes valid price ranges for products, and cleanses new data based on these ranges.
+
+**\### 2. System Architecture**
+
+**\#### 2.1 File Structure**
+
+The system operates on the following directory structure:
+
+\`\`\`
+
+Project/
+
+├── Data_correction1/
+
+│   ├── juin/
+
+│   │   └── A_Data_Scrapping_juin.xlsx
+
+│   └── juillet/
+
+│       └── \[daily files\].xlsx
+
+└── Data_Correction2/
+
+    └── juillet/
+
+        └── \[cleaned files\].xlsx
+
+\`\`\`
+
+**\#### 2.2 Data Flow**
+
+1\. Read reference data from previous month (June)
+
+2\. Create price range dictionary
+
+3\. Process current month's data (July)
+
+4\. Output cleaned data files
+
+**\### 3. Detailed Implementation**
+
+**\#### 3.1 Reference Data Loading**
+
+\`\`\`python
+
+previous_month_file = os.path.join("Data_correction1", "juin", "A_Data_Scrapping_juin.xlsx")
+
+aggregated_df = pd.read_excel(previous_month_file)
+
+\`\`\`
+
+This code loads the reference data containing valid price ranges for products from the June dataset.
+
+**\#### 3.2 Price Range Dictionary Creation**
+
+\`\`\`python
+
+price_ranges = {}
+
+for \_, row in aggregated_df.iterrows():
+
+    lower_bound, upper_bound = map(float, row\['fourchette'\].split('-'))
+
+    price_ranges\[row\['Libelle_du_produit'\]\] = (lower_bound, upper_bound)
+
+\`\`\`
+
+The system creates a dictionary where:
+
+\- Key: Product name (\`Libelle_du_produit\`)
+
+\- Value: Tuple of (lower_bound, upper_bound)
+
+Mathematical representation:
+
+Let P be the set of products and R be the set of valid ranges:
+
+\`\`\`
+
+P = {p₁, p₂, \..., pₙ}
+
+R = {(l₁, u₁), (l₂, u₂), \..., (lₙ, uₙ)}
+
+\`\`\`
+
+where lᵢ and uᵢ represent the lower and upper bounds for product pᵢ.
+
+**\#### 3.3 Price Validation Function**
+
+\`\`\`python
+
+def is_within_range(product, price):
+
+    if product not in price_ranges:
+
+        return None
+
+    lower_bound, upper_bound = price_ranges\[product\]
+
+    return lower_bound \<= price \<= upper_bound
+
+\`\`\`
+
+Mathematical formulation:
+
+For a given product p and price x:
+
+\`\`\`
+
+V(p,x) = {
+
+    True  if l ≤ x ≤ u
+
+    False if x \< l or x \> u
+
+    None  if p ∉ P
+
+}
+
+\`\`\`
+
+where (l,u) is the price range for product p.
+
+**\#### 3.4 Data Processing Logic**
+
+The system processes daily files using the following algorithm:
+
+1\. For each Excel file in the July directory:
+
+   - Load the daily data
+
+   - Initialize status and anomaly columns
+
+   - Process each row:
+
+     - If product exists in reference data:
+
+       - Validate price
+
+       - If invalid, set price to None
+
+     - If product doesn't exist:
+
+       - Skip row
+
+   - Save cleaned data
+
+Pseudo-algorithm:
+
+\`\`\`
+
+FOR each file F in july_directory:
+
+    D ← read_excel(F)
+
+    D' ← empty_dataframe()
+
+    FOR each row r in D:
+
+        IF r.product ∈ price_ranges:
+
+            IF not is_within_range(r.product, r.price):
+
+                r.price ← NULL
+
+            D'.append(r)
+
+    save_excel(D', output_directory)
+
+\`\`\`
+
+**\### 4. System Constraints and Assumptions**
+
+1\. Input Data Format:
+
+   - Excel files (.xlsx)
+
+   - Required columns:
+
+     - Libelle_du_produit (Product name)
+
+     - Prix_du_produit (Product price)
+
+     - fourchette (Price range in format "lower-upper")
+
+2\. Price Range Format:
+
+   - String format: "X-Y"
+
+   - X and Y are floating-point numbers
+
+   - X \< Y (lower bound less than upper bound)
+
+3\. Data Validation Rules:
+
+   - Prices must be numeric
+
+   - Prices must fall within specified ranges
+
+   - Products must exist in reference data
+
+**\### 5. Output Specifications**
+
+The system generates cleaned Excel files with the following modifications:
+
+\- Invalid prices are set to None
+
+\- Products not in reference data are excluded
+
+\- Original file structure is maintained
+
+\- Additional columns:
+
+  - status: Validation status
+
+  - Valeur_Atypique: Anomaly indicator
+
+**\### 6. Error Handling**
+
+The system handles the following cases:
+
+1\. Missing products in reference data
+
+2\. Invalid price values
+
+3\. Out-of-range prices
+
+4\. Missing or malformed input files
+
+**\### 7. Performance Considerations**
+
+The system uses dictionary lookup for price ranges, providing O(1) access time for product validation. The overall complexity is O(n×m) where:
+
+\- n = number of daily files
+
+\- m = number of rows per file
+
+**\### 8. Future Enhancements**
+
+Potential improvements could include:
+
+1\. Parallel processing of daily files
+
+2\. Advanced anomaly detection
+
+3\. Automated reporting system
+
+4\. Dynamic price range updates
+
+5\. Data visualization capabilities

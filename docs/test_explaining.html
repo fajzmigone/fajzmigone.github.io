@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Projects – Franck MIGONE</title>
+<title>test_explaining – Franck MIGONE</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,21 +23,21 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Franck MIGONE</span>
     </a>
   </div>
@@ -108,15 +108,15 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../research/index.html"> 
+    <a class="nav-link" href="./research/index.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../Useful_Ressources/index.html"> 
+    <a class="nav-link" href="./Useful_Ressources/index.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../cv/index.html"> 
+    <a class="nav-link" href="./cv/index.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
@@ -138,43 +138,140 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Projects</h1>
-</div>
 
 
 
-<div class="quarto-title-meta">
+<p><strong># Price Range Validation System</strong></p>
+<p><strong>## Technical Documentation</strong></p>
+<p><strong>### 1. Overview</strong></p>
+<p>This document describes a data validation system implemented in Python that processes product pricing data and validates it against predefined price ranges. The system reads historical data from Excel files, establishes valid price ranges for products, and cleanses new data based on these ranges.</p>
+<p><strong>### 2. System Architecture</strong></p>
+<p><strong>#### 2.1 File Structure</strong></p>
+<p>The system operates on the following directory structure:</p>
+<p>```</p>
+<p>Project/</p>
+<p>├── Data_correction1/</p>
+<p>│ &nbsp; ├── juin/</p>
+<p>│ &nbsp; │ &nbsp; └── A_Data_Scrapping_juin.xlsx</p>
+<p>│ &nbsp; └── juillet/</p>
+<p>│ &nbsp; &nbsp; &nbsp; └── [daily files].xlsx</p>
+<p>└── Data_Correction2/</p>
+<p>&nbsp; &nbsp; └── juillet/</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; └── [cleaned files].xlsx</p>
+<p>```</p>
+<p><strong>#### 2.2 Data Flow</strong></p>
+<p>1. Read reference data from previous month (June)</p>
+<p>2. Create price range dictionary</p>
+<p>3. Process current month’s data (July)</p>
+<p>4. Output cleaned data files</p>
+<p><strong>### 3. Detailed Implementation</strong></p>
+<p><strong>#### 3.1 Reference Data Loading</strong></p>
+<p>```python</p>
+<p>previous_month_file = os.path.join(“Data_correction1”, “juin”, “A_Data_Scrapping_juin.xlsx”)</p>
+<p>aggregated_df = pd.read_excel(previous_month_file)</p>
+<p>```</p>
+<p>This code loads the reference data containing valid price ranges for products from the June dataset.</p>
+<p><strong>#### 3.2 Price Range Dictionary Creation</strong></p>
+<p>```python</p>
+<p>price_ranges = {}</p>
+<p>for _, row in aggregated_df.iterrows():</p>
+<p>&nbsp; &nbsp; lower_bound, upper_bound = map(float, row[‘fourchette’].split(‘-’))</p>
+<p>&nbsp; &nbsp; price_ranges[row[‘Libelle_du_produit’]] = (lower_bound, upper_bound)</p>
+<p>```</p>
+<p>The system creates a dictionary where:</p>
+<p>- Key: Product name (`Libelle_du_produit`)</p>
+<p>- Value: Tuple of (lower_bound, upper_bound)</p>
+<p>Mathematical representation:</p>
+<p>Let P be the set of products and R be the set of valid ranges:</p>
+<p>```</p>
+<p>P = {p₁, p₂, ..., pₙ}</p>
+<p>R = {(l₁, u₁), (l₂, u₂), ..., (lₙ, uₙ)}</p>
+<p>```</p>
+<p>where lᵢ and uᵢ represent the lower and upper bounds for product pᵢ.</p>
+<p><strong>#### 3.3 Price Validation Function</strong></p>
+<p>```python</p>
+<p>def is_within_range(product, price):</p>
+<p>&nbsp; &nbsp; if product not in price_ranges:</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; return None</p>
+<p>&nbsp; &nbsp; lower_bound, upper_bound = price_ranges[product]</p>
+<p>&nbsp; &nbsp; return lower_bound &lt;= price &lt;= upper_bound</p>
+<p>```</p>
+<p>Mathematical formulation:</p>
+<p>For a given product p and price x:</p>
+<p>```</p>
+<p>V(p,x) = {</p>
+<p>&nbsp; &nbsp; True &nbsp;if l ≤ x ≤ u</p>
+<p>&nbsp; &nbsp; False if x &lt; l or x &gt; u</p>
+<p>&nbsp; &nbsp; None &nbsp;if p ∉ P</p>
+<p>}</p>
+<p>```</p>
+<p>where (l,u) is the price range for product p.</p>
+<p><strong>#### 3.4 Data Processing Logic</strong></p>
+<p>The system processes daily files using the following algorithm:</p>
+<p>1. For each Excel file in the July directory:</p>
+<p>&nbsp; &nbsp;- Load the daily data</p>
+<p>&nbsp; &nbsp;- Initialize status and anomaly columns</p>
+<p>&nbsp; &nbsp;- Process each row:</p>
+<p>&nbsp; &nbsp; &nbsp;- If product exists in reference data:</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;- Validate price</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;- If invalid, set price to None</p>
+<p>&nbsp; &nbsp; &nbsp;- If product doesn’t exist:</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;- Skip row</p>
+<p>&nbsp; &nbsp;- Save cleaned data</p>
+<p>Pseudo-algorithm:</p>
+<p>```</p>
+<p>FOR each file F in july_directory:</p>
+<p>&nbsp; &nbsp; D ← read_excel(F)</p>
+<p>&nbsp; &nbsp; D’ ← empty_dataframe()</p>
+<p>&nbsp; &nbsp; FOR each row r in D:</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; IF r.product ∈ price_ranges:</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; IF not is_within_range(r.product, r.price):</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; r.price ← NULL</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; D’.append(r)</p>
+<p>&nbsp; &nbsp; save_excel(D’, output_directory)</p>
+<p>```</p>
+<p><strong>### 4. System Constraints and Assumptions</strong></p>
+<p>1. Input Data Format:</p>
+<p>&nbsp; &nbsp;- Excel files (.xlsx)</p>
+<p>&nbsp; &nbsp;- Required columns:</p>
+<p>&nbsp; &nbsp; &nbsp;- Libelle_du_produit (Product name)</p>
+<p>&nbsp; &nbsp; &nbsp;- Prix_du_produit (Product price)</p>
+<p>&nbsp; &nbsp; &nbsp;- fourchette (Price range in format “lower-upper”)</p>
+<p>2. Price Range Format:</p>
+<p>&nbsp; &nbsp;- String format: “X-Y”</p>
+<p>&nbsp; &nbsp;- X and Y are floating-point numbers</p>
+<p>&nbsp; &nbsp;- X &lt; Y (lower bound less than upper bound)</p>
+<p>3. Data Validation Rules:</p>
+<p>&nbsp; &nbsp;- Prices must be numeric</p>
+<p>&nbsp; &nbsp;- Prices must fall within specified ranges</p>
+<p>&nbsp; &nbsp;- Products must exist in reference data</p>
+<p><strong>### 5. Output Specifications</strong></p>
+<p>The system generates cleaned Excel files with the following modifications:</p>
+<p>- Invalid prices are set to None</p>
+<p>- Products not in reference data are excluded</p>
+<p>- Original file structure is maintained</p>
+<p>- Additional columns:</p>
+<p>&nbsp; - status: Validation status</p>
+<p>&nbsp; - Valeur_Atypique: Anomaly indicator</p>
+<p><strong>### 6. Error Handling</strong></p>
+<p>The system handles the following cases:</p>
+<p>1. Missing products in reference data</p>
+<p>2. Invalid price values</p>
+<p>3. Out-of-range prices</p>
+<p>4. Missing or malformed input files</p>
+<p><strong>### 7. Performance Considerations</strong></p>
+<p>The system uses dictionary lookup for price ranges, providing O(1) access time for product validation. The overall complexity is O(n×m) where:</p>
+<p>- n = number of daily files</p>
+<p>- m = number of rows per file</p>
+<p><strong>### 8. Future Enhancements</strong></p>
+<p>Potential improvements could include:</p>
+<p>1. Parallel processing of daily files</p>
+<p>2. Advanced anomaly detection</p>
+<p>3. Automated reporting system</p>
+<p>4. Dynamic price range updates</p>
+<p>5. Data visualization capabilities</p>
 
-    
-  
-    
-  </div>
-  
 
-
-</header>
-
-
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section"></h2>
-<p><img src="project_1_banner.png" style="height: 100%; width: 100%; object-fit: contain" onclick="window.open('https://arxiv.org/abs/2210.07278', 'blank');"></p>
-<p><a href="https://arxiv.org/abs/2210.07278" target="_blank">arXiv Preprint</a> | <a href="https://github.com/marvinschmitt/MetaUncertaintyPaper" target="_blank">Code</a><br></p>
-<p>Over the centuries, I have devoted countless hours to deciphering and translating the ancient scripts and dialects of the various peoples of Middle-earth. My goal is to gain a deeper understanding of the cultures and histories of these peoples by studying their languages. Currently, I am working on a monograph that explores the linguistic roots of the Elvish languages. Through extensive research and analysis, I hope to shed light on the connections between the different dialects of Elvish and their origins. This project has been particularly challenging, as Elvish is a complex and nuanced language, but I am determined to see it through to completion.</p>
-<hr>
-</section>
-<section id="the-history-of-the-war-of-the-ring" class="level2">
-<h2 class="anchored" data-anchor-id="the-history-of-the-war-of-the-ring">The History of the War of the Ring</h2>
-<p><img src="project_2_banner.png" style="height: 100%; width: 100%; object-fit: contain" onclick="window.open('https://arxiv.org/abs/2112.08866', 'blank');"></p>
-<p><a href="https://arxiv.org/abs/2112.08866" target="_blank">arXiv Preprint</a> | <a href="https://github.com/marvinschmitt/ModelMisspecificationBF" target="_blank">Code</a><br></p>
-<p>I am creating a comprehensive and detailed history of the conflict that goes beyond the surface-level events. By gathering information from a variety of sources, including my own memories, written accounts, and oral histories, I hope to shed new light on this important period in Middle-earth’s history and provide valuable insights into the motivations and actions of the various players involved.</p>
-<div style="margin: 30px; text-align: center;">
-<a class="btn btn-primary" href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/" role="button" target="_blank" style="padding: 15px 30px;">View the tutorial for this template (+ download link)</a>
-</div>
-
-
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
