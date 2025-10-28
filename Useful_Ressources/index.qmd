@@ -20,6 +20,10 @@ title: Teaching, Conference & Useful Ressources
 
 - Sondage (échantillonnage) STT 504 - Master 2 DataScience & Statistiques - Université Soumaré Abidjan 
 
+### 2026
+
+- Sondage (échantillonnage) STT 504 - Master 2 DataScience & Statistiques - Université Soumaré Abidjan 
+
 ## Infographics for research paper
 
 1. [**Stata Code**](https://worldbank.github.io/stata-visual-library/)  
