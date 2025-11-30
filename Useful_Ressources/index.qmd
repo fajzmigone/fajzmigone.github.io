@@ -19,10 +19,12 @@ title: Teaching, Conference & Useful Ressources
 ### 2025
 
 - Sondage (échantillonnage) STT 504 - Master 2 DataScience & Statistiques - Université Soumaré Abidjan 
+- Lien vers le cours : [**stt_504**](https://github.com/fajzmigone/stt504_sampling)
 
 ### 2026
 
 - Sondage (échantillonnage) STT 504 - Master 2 DataScience & Statistiques - Université Soumaré Abidjan 
+- Lien vers le cours : [**stt_504**](https://github.com/fajzmigone/stt504_sampling)
 
 ## Infographics for research paper
 
