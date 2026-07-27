@@ -1,42 +1,61 @@
 ---
 title: Research
+description: Selected working papers and ongoing research.
 ---
 
-## Job Quality and Poverty in developping countries : Evidence from Côte d'Ivoire
+My research focuses on labor markets, poverty, education, and the use of new
+data sources for economic measurement.
 
-<a href="https://drive.google.com/file/d/1jo8JqBBzvfliCmEQC0UG4NHShR-NiNCe/view?usp=sharing" target="_blank">Working Paper</a> <br>
+::: {.research-item}
+## Job Quality and Poverty in Developing Countries: Evidence from Côte d’Ivoire
 
-This study analyzes the influence of household members’ job quality on the household poverty status in Côte d'Ivoire using data from the 2018 Harmonized Survey of Household Living Conditions. Using simple
-probit regressions, this study highlights the significant negative effect of a household head’s job quality on
-household poverty risk. It also shows that improving the job quality of other household members reduces
-the risk of household poverty. In addition to promoting improved employment conditions for workers,
-policymakers should promote women's access to high-quality jobs. This could involve investing in social
-facilities to relieve the burden of caring for children in the household.
-----
+**Working paper** · [Read the paper](https://drive.google.com/file/d/1jo8JqBBzvfliCmEQC0UG4NHShR-NiNCe/view?usp=sharing)
 
-## Causal Impact of Armed Conflicts on Education Outcome in Mali
-*with Josias Sadia* <br>
-<a href="https://drive.google.com/file/d/1kvELyRo6ru2XATIfZkzbS5NQ27Km8HPY/view?usp=sharing" target="_blank">Working paper</a> <br>
+Using the 2018 Harmonized Survey of Household Living Conditions, this study
+examines how the quality of jobs held by household members relates to household
+poverty. The results suggest that better employment conditions—particularly
+women’s access to high-quality jobs—can reduce poverty risk.
+:::
 
-This study, using a double-difference methodology and propensity score matching (PSMs), analyses
-the causal impact of Mali's prolonged crises and conflicts on the Malian education system. The
-results indicate that these events have had a significant and negative impact on education, resulting
-in a drop in the average number of years of education between the generations that attended school
-during the conflict and the previous generation, ranging from 1.13 to 1.97 years of education. These
-findings underline the urgency of taking measures to mitigate these adverse effects and re-establish
-a functional education system in the country, highlighting the importance of understanding the
-causal impact of the crises on education in Mali.
+::: {.research-item}
+## The Causal Impact of Armed Conflict on Education Outcomes in Mali
 
-##  Effects of exposure to violence on academic performance among children aged 13 to 18 in Côte d'Ivoire
-*with Sekongo Coulibaly* <br>
-<a href="https://drive.google.com/file/d/1hsOuKR41ZenMkJwZHB-_QiBoDGeIZ5N1/view?usp=sharing" target="_blank">Working paper</a> <br>
+*With Josias Sadia*
 
-This paper examines the effects of exposure to violence on academic performance among children aged 13 to 18 in Côte d'Ivoire. Researchers have identified a negative association between exposure to violence and academic performance in children, with violence manifesting in various forms. Using data from the 2018 Violence Against Children Survey (VACS), we analyze the effects of exposure to violence on academic performance of children aged 13 to 18 in Côte d'Ivoire. Our results indicate that children exposed to violence are more likely to experience academic difficulties, such as grade repetition and school dropout, leading to poor academic performance. Furthermore, the literature demonstrates that these effects are not limited to academic outcomes but also impact children's emotional and social well-being.
-This study highlights the importance of educational policies and child protection measures aimed at reducing exposure to violence and improving children's academic performance in Côte d'Ivoire.
+**Working paper** · [Read the paper](https://drive.google.com/file/d/1kvELyRo6ru2XATIfZkzbS5NQ27Km8HPY/view?usp=sharing)
 
+Using difference-in-differences and propensity score matching, this study
+analyzes the effects of Mali’s prolonged crises on educational attainment. It
+finds a decline of 1.13 to 1.97 years of education among generations who were of
+school age during the conflict.
+:::
 
-## *Work in progress*
+::: {.research-item}
+## Exposure to Violence and Academic Performance Among Adolescents in Côte d’Ivoire
 
-1. Transmission intergénérationelle de l'emploi avec *Gon Emmanuel Coulibaly*
-2. Estimation of Poverty with satellite imagery in developing countries : evidence from Côte d’Ivoire with *Kone Kinin Mamadou*, *Daouda Doukouré*, *Sibahi Obou*
-3. Discrimination à l’entrée sur le marché du travail avec *Josias Sadia*
+*With Sekongo Coulibaly*
+
+**Working paper** · [Read the paper](https://drive.google.com/file/d/1hsOuKR41ZenMkJwZHB-_QiBoDGeIZ5N1/view?usp=sharing)
+
+Using the 2018 Violence Against Children Survey, this paper studies academic
+outcomes among children aged 13 to 18. Exposure to violence is associated with
+greater risks of grade repetition and school dropout, underlining the need to
+connect education policy with child-protection measures.
+:::
+
+::: {.research-item}
+## Estimating Poverty with Satellite Imagery in Developing Countries: Evidence from Côte d’Ivoire
+
+*With Kone Kinin Mamadou*
+
+**Working paper** · [Read the paper](https://gouvci-my.sharepoint.com/:b:/g/personal/j_migone_stat_plan_gouv_ci/IQCuKg5LwElMSKoG3dK40V69AcFoFGnZSRnBp4MiBgEz0wk?e=tdONmd)
+
+This study combines Sentinel-2 imagery, transfer learning, and household survey
+data to estimate poverty between survey waves. The preferred model closely
+reproduces the observed national poverty rates for 2018 and 2021, illustrating
+how satellite data can complement traditional welfare monitoring.
+:::
+
+## Work in progress
+
+- **Job creation and job destruction in Côte d’Ivoire, 2016–2024** — With Ehouman Zora

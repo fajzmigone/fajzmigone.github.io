@@ -1,45 +1,40 @@
 ---
-title: Teaching, Conference & Useful Ressources
+title: Teaching & Resources
+description: Courses, conference participation, and useful resources for applied economics.
 ---
 
 ## Teaching
 
-### 2022
+::: {.teaching-item}
+### STT 504 — Sampling
 
-- Travaux Dirigés Econométrie - Licence 3 Economie & Gestion - *Université Catholique d’Afrique de l’Ouest (UCAO) Abidjan*
+**Master 2 Data Science & Statistics · Université Soumaré, Abidjan · 2025–2026**
 
-### 2023
+[Course materials](https://github.com/fajzmigone/stt504_sampling)
+:::
 
-- Travaux Dirigés Econométrie - Licence 3 Economie & Gestion - Université Catholique d’Afrique de l’Ouest (UCAO) Abidjan 
+::: {.teaching-item}
+### Econometrics tutorials
 
-### 2024
+**Licence 3 Economics & Management · Université Catholique d’Afrique de l’Ouest, Abidjan · 2022–2024**
+:::
 
-- Travaux Dirigés Econométrie - Licence 3 Economie & Gestion - Université Catholique d’Afrique de l’Ouest (UCAO) Abidjan 
+## Conferences & research seminars
 
-### 2025
+- **2024 — Mexico:** 4th International Association for Official Statistics (IAOS) and 19th International Statistical Institute (ISI) Conference. Scheduled presentation not delivered because of visa constraints.
+- **2023 — Livingstone, Zambia:** 3rd International Association for Official Statistics (IAOS) and 17th International Statistical Institute (ISI) Conference.
 
-- Sondage (échantillonnage) STT 504 - Master 2 DataScience & Statistiques - Université Soumaré Abidjan 
-- Lien vers le cours : [**stt_504**](https://github.com/fajzmigone/stt504_sampling)
+## Useful resources
 
-### 2026
+### Data visualization
 
-- Sondage (échantillonnage) STT 504 - Master 2 DataScience & Statistiques - Université Soumaré Abidjan 
-- Lien vers le cours : [**stt_504**](https://github.com/fajzmigone/stt504_sampling)
+- [Stata visual library](https://worldbank.github.io/stata-visual-library/)
+- [R visual library](https://worldbank.github.io/r-econ-visual-library/)
+- [An Economist’s Guide to Visualizing Data](https://gouvci-my.sharepoint.com/:b:/g/personal/j_migone_stat_plan_gouv_ci/EaRbnR7TnC5PuEZwnGvOtAgB6QXQmq6qmWWLa4oVB7dR1g?e=QFUw3M)
 
-## Infographics for research paper
+### Books, talks & explainers
 
-1. [**Stata Code**](https://worldbank.github.io/stata-visual-library/)  
-2. [**R Code**](https://worldbank.github.io/r-econ-visual-library/)  
-3. [**An Economist’s Guide to Visualizing Data**](https://gouvci-my.sharepoint.com/:b:/g/personal/j_migone_stat_plan_gouv_ci/EaRbnR7TnC5PuEZwnGvOtAgB6QXQmq6qmWWLa4oVB7dR1g?e=QFUw3M) 
-
-## Conferences and Research Seminars
-
-1. 3rd International Association of Official Statistics (IAOS) - 17th International Statistic Institute (ISI) Conference in Zambia Livingstone - April 2023
-2. 4th International Association of Official Statistics (IAOS) - 19th International Statistic Institute (ISI) Conference in Mexico - May 2024 *failed to present due to VISA*
-
-## Other
-
-1.  [**Causal Inference Book : Causality for Brave and True**](https://matheusfacure.github.io/python-causality-handbook/landing-page.html)  
-2. **Econimate** : I love [**youtube.com/econimate**](https://t.co/5O0ziYSjJy) for the way to explain economics research
-3. [**Pulic speaking for academic economists from Rachael Meager**](https://gouvci-my.sharepoint.com/:b:/g/personal/j_migone_stat_plan_gouv_ci/EbLOkKzRI5tNs2JG9tTGwFoBXj5IbXdcpepUSA_MRmcjjg?e=8mnZ5F)  
-4. [**Micro-simuler l’impact des politiques publiques sur les ménages : pourquoi, comment et lesquelles**](https://gouvci-my.sharepoint.com/:b:/g/personal/j_migone_stat_plan_gouv_ci/EbLOkKzRI5tNs2JG9tTGwFoBXj5IbXdcpepUSA_MRmcjjg?e=YH6Qcw)
+- [Causality for the Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html), a practical causal-inference handbook.
+- [Econimate](https://t.co/5O0ziYSjJy), animated explanations of economics research.
+- [Public speaking for academic economists](https://gouvci-my.sharepoint.com/:b:/g/personal/j_migone_stat_plan_gouv_ci/EbLOkKzRI5tNs2JG9tTGwFoBXj5IbXdcpepUSA_MRmcjjg?e=8mnZ5F), by Rachael Meager.
+- [Microsimulating the impact of public policies on households](https://gouvci-my.sharepoint.com/:b:/g/personal/j_migone_stat_plan_gouv_ci/EbLOkKzRI5tNs2JG9tTGwFoBXj5IbXdcpepUSA_MRmcjjg?e=YH6Qcw) (in French).

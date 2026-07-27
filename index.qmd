@@ -1,34 +1,41 @@
 ---
+title: Franck Migone
+subtitle: Economist & statistician
 about:
   template: jolla
-  id: about-block
-  image: "img/fmigone.jpg"
+  image: img/fmigone.jpg
+  image-shape: round
+  image-width: 14em
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/fajmigone
     - icon: github
-      text: Github
+      text: GitHub
       href: https://github.com/fmigone
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/franck-migone/
     - icon: envelope
       text: Email
-      href: "mailto:franckmigone@gmail.com"  
+      href: mailto:franckmigone@gmail.com
 ---
 
-::: {#about-block}
+I work at the intersection of official statistics, public policy, and data science.
+Since 2021, I have worked at Côte d’Ivoire’s National Agency of Statistics
+(ANSTAT), where I serve as Deputy Director for Methodological Innovation and
+Head of DataLaB, ANSTAT’s data innovation lab.
+
+My work explores how artificial intelligence, big data, and modern survey
+methods can improve economic measurement and public decision-making. I am
+particularly interested in labor markets, poverty, and economic development in
+Côte d’Ivoire and West Africa.
+
+::: {.home-actions}
+[View my research](research/index.qmd){.btn .btn-primary}
+[Teaching materials](Useful_Ressources/index.qmd){.btn .btn-outline-primary}
+[Download my CV](cv/cv.pdf){.btn .btn-outline-primary target='_blank'}
 :::
 
-### Hey, welcome !
+## Current focus
 
-Economist and statistician with a passion for data analysis and economic development. Since February 2021, I have been working at the National Agency of Statistics (ANSTAT) of Côte d'Ivoire , in charge of studies and survey for issues related to reform and innovation.
-
-My professional roles are : (i) Deputy Director in charge of Methodological Innovation and (ii) Head of DataLaB, the Data Innovation Lab of ANSTAT.
-
-My interest are related to AI, Big Data on one hand and Labor Market and Poverty on the other hand. My role involves analyzing economic data and providing essential information for decision-making.
-
-Here, you will find my research work, exciting projects that occupy my time, and my reflections on the ivorian and west african economies.
-
-[contact me](mailto:franckmigone@gmail.com)
+- **Economic measurement:** labor markets, poverty, education, and household welfare.
+- **Statistical innovation:** AI, satellite imagery, big data, and survey methods.
+- **Knowledge sharing:** teaching econometrics and sampling, and writing about economics and data.

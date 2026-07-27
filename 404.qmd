@@ -1,5 +1,7 @@
 ---
-title: "404"
+title: Page not found
 ---
 
-Page not found, sorry! Try the search or navigate back to the base website.
+The page you are looking for may have moved or no longer exists.
+
+[Return to the home page](index.qmd){.btn .btn-primary}

@@ -1,13 +1,20 @@
-# Quarto Template for the Tutorial
+# Franck Migone — personal website
 
-This repository contains the template for the website tutorial at <https://www.marvinschmitt.com/blog/website-tutorial-quarto/>.
+Source files for [fajzmigone.github.io](https://fajzmigone.github.io), built with
+[Quarto](https://quarto.org/) and published from the `docs/` directory.
 
-<p align="center">
-  <img src="img/website_template_screenshot_1.png" width="45%">
-&nbsp; &nbsp; &nbsp; &nbsp;
-  <img src="img/website_template_screenshot_2.png" width="45%">
-<br/><br/>
-  <img src="img/website_template_screenshot_3.png" width="45%">
-&nbsp; &nbsp; &nbsp; &nbsp;
-  <img src="img/website_template_screenshot_4.png" width="45%">
-</p># fajzmigone.github.io
+## Local preview
+
+```powershell
+quarto preview
+```
+
+## Build
+
+```powershell
+quarto render
+```
+
+The public pages are listed explicitly in `_quarto.yml`. Older experiments and
+template files can remain in the repository without being included in future
+site builds.

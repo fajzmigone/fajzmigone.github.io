@@ -2,113 +2,92 @@
   {
     "objectID": "Useful_Ressources/index.html",
     "href": "Useful_Ressources/index.html",
-    "title": "Teaching, Conference & Useful Ressources",
+    "title": "Teaching & Resources",
     "section": "",
-    "text": "Travaux Dirigés Econométrie - Licence 3 Economie & Gestion - Université Catholique d’Afrique de l’Ouest (UCAO) Abidjan\n\n\n\n\n\nTravaux Dirigés Econométrie - Licence 3 Economie & Gestion - Université Catholique d’Afrique de l’Ouest (UCAO) Abidjan\n\n\n\n\n\nTravaux Dirigés Econométrie - Licence 3 Economie & Gestion - Université Catholique d’Afrique de l’Ouest (UCAO) Abidjan\n\n\n\n\n\nSondage (échantillonnage) STT 504 - Master 2 DataScience & Statistiques - Université Soumaré Abidjan\nLien vers le cours : stt_504\n\n\n\n\n\nSondage (échantillonnage) STT 504 - Master 2 DataScience & Statistiques - Université Soumaré Abidjan\nLien vers le cours : stt_504"
+    "text": "Master 2 Data Science & Statistics · Université Soumaré, Abidjan · 2025–2026\nCourse materials\n\n\n\nLicence 3 Economics & Management · Université Catholique d’Afrique de l’Ouest, Abidjan · 2022–2024"
   },
   {
     "objectID": "Useful_Ressources/index.html#teaching",
     "href": "Useful_Ressources/index.html#teaching",
-    "title": "Teaching, Conference & Useful Ressources",
+    "title": "Teaching & Resources",
     "section": "",
-    "text": "Travaux Dirigés Econométrie - Licence 3 Economie & Gestion - Université Catholique d’Afrique de l’Ouest (UCAO) Abidjan\n\n\n\n\n\nTravaux Dirigés Econométrie - Licence 3 Economie & Gestion - Université Catholique d’Afrique de l’Ouest (UCAO) Abidjan\n\n\n\n\n\nTravaux Dirigés Econométrie - Licence 3 Economie & Gestion - Université Catholique d’Afrique de l’Ouest (UCAO) Abidjan\n\n\n\n\n\nSondage (échantillonnage) STT 504 - Master 2 DataScience & Statistiques - Université Soumaré Abidjan\nLien vers le cours : stt_504\n\n\n\n\n\nSondage (échantillonnage) STT 504 - Master 2 DataScience & Statistiques - Université Soumaré Abidjan\nLien vers le cours : stt_504"
+    "text": "Master 2 Data Science & Statistics · Université Soumaré, Abidjan · 2025–2026\nCourse materials\n\n\n\nLicence 3 Economics & Management · Université Catholique d’Afrique de l’Ouest, Abidjan · 2022–2024"
   },
   {
-    "objectID": "Useful_Ressources/index.html#infographics-for-research-paper",
-    "href": "Useful_Ressources/index.html#infographics-for-research-paper",
-    "title": "Teaching, Conference & Useful Ressources",
-    "section": "Infographics for research paper",
-    "text": "Infographics for research paper\n\nStata Code\n\nR Code\n\nAn Economist’s Guide to Visualizing Data"
+    "objectID": "Useful_Ressources/index.html#conferences-research-seminars",
+    "href": "Useful_Ressources/index.html#conferences-research-seminars",
+    "title": "Teaching & Resources",
+    "section": "Conferences & research seminars",
+    "text": "Conferences & research seminars\n\n2024 — Mexico: 4th International Association for Official Statistics (IAOS) and 19th International Statistical Institute (ISI) Conference. Scheduled presentation not delivered because of visa constraints.\n2023 — Livingstone, Zambia: 3rd International Association for Official Statistics (IAOS) and 17th International Statistical Institute (ISI) Conference."
   },
   {
-    "objectID": "Useful_Ressources/index.html#conferences-and-research-seminars",
-    "href": "Useful_Ressources/index.html#conferences-and-research-seminars",
-    "title": "Teaching, Conference & Useful Ressources",
-    "section": "Conferences and Research Seminars",
-    "text": "Conferences and Research Seminars\n\n3rd International Association of Official Statistics (IAOS) - 17th International Statistic Institute (ISI) Conference in Zambia Livingstone - April 2023\n4th International Association of Official Statistics (IAOS) - 19th International Statistic Institute (ISI) Conference in Mexico - May 2024 failed to present due to VISA"
+    "objectID": "Useful_Ressources/index.html#useful-resources",
+    "href": "Useful_Ressources/index.html#useful-resources",
+    "title": "Teaching & Resources",
+    "section": "Useful resources",
+    "text": "Useful resources\n\nData visualization\n\nStata visual library\nR visual library\nAn Economist’s Guide to Visualizing Data\n\n\n\nBooks, talks & explainers\n\nCausality for the Brave and True, a practical causal-inference handbook.\nEconimate, animated explanations of economics research.\nPublic speaking for academic economists, by Rachael Meager.\nMicrosimulating the impact of public policies on households (in French)."
   },
   {
-    "objectID": "Useful_Ressources/index.html#other",
-    "href": "Useful_Ressources/index.html#other",
-    "title": "Teaching, Conference & Useful Ressources",
-    "section": "Other",
-    "text": "Other\n\nCausal Inference Book : Causality for Brave and True\n\nEconimate : I love youtube.com/econimate for the way to explain economics research\nPulic speaking for academic economists from Rachael Meager\n\nMicro-simuler l’impact des politiques publiques sur les ménages : pourquoi, comment et lesquelles"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Franck Migone",
+    "section": "",
+    "text": "I work at the intersection of official statistics, public policy, and data science. Since 2021, I have worked at Côte d’Ivoire’s National Agency of Statistics (ANSTAT), where I serve as Deputy Director for Methodological Innovation and Head of DataLaB, ANSTAT’s data innovation lab.\nMy work explores how artificial intelligence, big data, and modern survey methods can improve economic measurement and public decision-making. I am particularly interested in labor markets, poverty, and economic development in Côte d’Ivoire and West Africa."
+  },
+  {
+    "objectID": "index.html#current-focus",
+    "href": "index.html#current-focus",
+    "title": "Franck Migone",
+    "section": "Current focus",
+    "text": "Current focus\n\nEconomic measurement: labor markets, poverty, education, and household welfare.\nStatistical innovation: AI, satellite imagery, big data, and survey methods.\nKnowledge sharing: teaching econometrics and sampling, and writing about economics and data."
   },
   {
     "objectID": "research/index.html",
     "href": "research/index.html",
     "title": "Research",
     "section": "",
-    "text": "Working Paper \nThis study analyzes the influence of household members’ job quality on the household poverty status in Côte d’Ivoire using data from the 2018 Harmonized Survey of Household Living Conditions. Using simple probit regressions, this study highlights the significant negative effect of a household head’s job quality on household poverty risk. It also shows that improving the job quality of other household members reduces the risk of household poverty. In addition to promoting improved employment conditions for workers, policymakers should promote women’s access to high-quality jobs. This could involve investing in social facilities to relieve the burden of caring for children in the household. —-"
+    "text": "My research focuses on labor markets, poverty, education, and the use of new data sources for economic measurement."
   },
   {
-    "objectID": "research/index.html#job-quality-and-poverty-in-developping-countries-evidence-from-côte-divoire",
-    "href": "research/index.html#job-quality-and-poverty-in-developping-countries-evidence-from-côte-divoire",
+    "objectID": "research/index.html#job-quality-and-poverty-in-developing-countries-evidence-from-côte-divoire",
+    "href": "research/index.html#job-quality-and-poverty-in-developing-countries-evidence-from-côte-divoire",
     "title": "Research",
-    "section": "",
-    "text": "Working Paper \nThis study analyzes the influence of household members’ job quality on the household poverty status in Côte d’Ivoire using data from the 2018 Harmonized Survey of Household Living Conditions. Using simple probit regressions, this study highlights the significant negative effect of a household head’s job quality on household poverty risk. It also shows that improving the job quality of other household members reduces the risk of household poverty. In addition to promoting improved employment conditions for workers, policymakers should promote women’s access to high-quality jobs. This could involve investing in social facilities to relieve the burden of caring for children in the household. —-"
+    "section": "Job Quality and Poverty in Developing Countries: Evidence from Côte d’Ivoire",
+    "text": "Job Quality and Poverty in Developing Countries: Evidence from Côte d’Ivoire\nWorking paper · Read the paper\nUsing the 2018 Harmonized Survey of Household Living Conditions, this study examines how the quality of jobs held by household members relates to household poverty. The results suggest that better employment conditions—particularly women’s access to high-quality jobs—can reduce poverty risk."
   },
   {
-    "objectID": "research/index.html#causal-impact-of-armed-conflicts-on-education-outcome-in-mali",
-    "href": "research/index.html#causal-impact-of-armed-conflicts-on-education-outcome-in-mali",
+    "objectID": "research/index.html#the-causal-impact-of-armed-conflict-on-education-outcomes-in-mali",
+    "href": "research/index.html#the-causal-impact-of-armed-conflict-on-education-outcomes-in-mali",
     "title": "Research",
-    "section": "Causal Impact of Armed Conflicts on Education Outcome in Mali",
-    "text": "Causal Impact of Armed Conflicts on Education Outcome in Mali\nwith Josias Sadia  Working paper \nThis study, using a double-difference methodology and propensity score matching (PSMs), analyses the causal impact of Mali’s prolonged crises and conflicts on the Malian education system. The results indicate that these events have had a significant and negative impact on education, resulting in a drop in the average number of years of education between the generations that attended school during the conflict and the previous generation, ranging from 1.13 to 1.97 years of education. These findings underline the urgency of taking measures to mitigate these adverse effects and re-establish a functional education system in the country, highlighting the importance of understanding the causal impact of the crises on education in Mali."
+    "section": "The Causal Impact of Armed Conflict on Education Outcomes in Mali",
+    "text": "The Causal Impact of Armed Conflict on Education Outcomes in Mali\nWith Josias Sadia\nWorking paper · Read the paper\nUsing difference-in-differences and propensity score matching, this study analyzes the effects of Mali’s prolonged crises on educational attainment. It finds a decline of 1.13 to 1.97 years of education among generations who were of school age during the conflict."
   },
   {
-    "objectID": "research/index.html#effects-of-exposure-to-violence-on-academic-performance-among-children-aged-13-to-18-in-côte-divoire",
-    "href": "research/index.html#effects-of-exposure-to-violence-on-academic-performance-among-children-aged-13-to-18-in-côte-divoire",
+    "objectID": "research/index.html#exposure-to-violence-and-academic-performance-among-adolescents-in-côte-divoire",
+    "href": "research/index.html#exposure-to-violence-and-academic-performance-among-adolescents-in-côte-divoire",
     "title": "Research",
-    "section": "Effects of exposure to violence on academic performance among children aged 13 to 18 in Côte d’Ivoire",
-    "text": "Effects of exposure to violence on academic performance among children aged 13 to 18 in Côte d’Ivoire\nwith Sekongo Coulibaly  Working paper \nThis paper examines the effects of exposure to violence on academic performance among children aged 13 to 18 in Côte d’Ivoire. Researchers have identified a negative association between exposure to violence and academic performance in children, with violence manifesting in various forms. Using data from the 2018 Violence Against Children Survey (VACS), we analyze the effects of exposure to violence on academic performance of children aged 13 to 18 in Côte d’Ivoire. Our results indicate that children exposed to violence are more likely to experience academic difficulties, such as grade repetition and school dropout, leading to poor academic performance. Furthermore, the literature demonstrates that these effects are not limited to academic outcomes but also impact children’s emotional and social well-being. This study highlights the importance of educational policies and child protection measures aimed at reducing exposure to violence and improving children’s academic performance in Côte d’Ivoire."
+    "section": "Exposure to Violence and Academic Performance Among Adolescents in Côte d’Ivoire",
+    "text": "Exposure to Violence and Academic Performance Among Adolescents in Côte d’Ivoire\nWith Sekongo Coulibaly\nWorking paper · Read the paper\nUsing the 2018 Violence Against Children Survey, this paper studies academic outcomes among children aged 13 to 18. Exposure to violence is associated with greater risks of grade repetition and school dropout, underlining the need to connect education policy with child-protection measures."
+  },
+  {
+    "objectID": "research/index.html#estimating-poverty-with-satellite-imagery-in-developing-countries-evidence-from-côte-divoire",
+    "href": "research/index.html#estimating-poverty-with-satellite-imagery-in-developing-countries-evidence-from-côte-divoire",
+    "title": "Research",
+    "section": "Estimating Poverty with Satellite Imagery in Developing Countries: Evidence from Côte d’Ivoire",
+    "text": "Estimating Poverty with Satellite Imagery in Developing Countries: Evidence from Côte d’Ivoire\nWith Kone Kinin Mamadou\nWorking paper · Read the paper\nThis study combines Sentinel-2 imagery, transfer learning, and household survey data to estimate poverty between survey waves. The preferred model closely reproduces the observed national poverty rates for 2018 and 2021, illustrating how satellite data can complement traditional welfare monitoring."
   },
   {
     "objectID": "research/index.html#work-in-progress",
     "href": "research/index.html#work-in-progress",
     "title": "Research",
     "section": "Work in progress",
-    "text": "Work in progress\n\nTransmission intergénérationelle de l’emploi avec Gon Emmanuel Coulibaly\nEstimation of Poverty with satellite imagery in developing countries : evidence from Côte d’Ivoire with Kone Kinin Mamadou, Daouda Doukouré, Sibahi Obou\nDiscrimination à l’entrée sur le marché du travail avec Josias Sadia"
+    "text": "Work in progress\n\nJob creation and job destruction in Côte d’Ivoire, 2016–2024 — With Ehouman Zora"
   },
   {
     "objectID": "cv/index.html",
     "href": "cv/index.html",
     "title": "Curriculum vitae",
     "section": "",
-    "text": "Download current CV"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Franck MIGONE",
-    "section": "",
-    "text": "Twitter\n  \n  \n    \n     Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email\n  \n\n\n\n\nHey, welcome !\nEconomist and statistician with a passion for data analysis and economic development. Since February 2021, I have been working at the National Agency of Statistics (ANSTAT) of Côte d’Ivoire , in charge of studies and survey for issues related to reform and innovation.\nMy professional roles are : (i) Deputy Director in charge of Methodological Innovation and (ii) Head of DataLaB, the Data Innovation Lab of ANSTAT.\nMy interest are related to AI, Big Data on one hand and Labor Market and Poverty on the other hand. My role involves analyzing economic data and providing essential information for decision-making.\nHere, you will find my research work, exciting projects that occupy my time, and my reflections on the ivorian and west african economies.\ncontact me"
-  },
-  {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
-    "section": "",
-    "text": "arXiv Preprint | Code\nOver the centuries, I have devoted countless hours to deciphering and translating the ancient scripts and dialects of the various peoples of Middle-earth. My goal is to gain a deeper understanding of the cultures and histories of these peoples by studying their languages. Currently, I am working on a monograph that explores the linguistic roots of the Elvish languages. Through extensive research and analysis, I hope to shed light on the connections between the different dialects of Elvish and their origins. This project has been particularly challenging, as Elvish is a complex and nuanced language, but I am determined to see it through to completion."
-  },
-  {
-    "objectID": "projects/index.html#section",
-    "href": "projects/index.html#section",
-    "title": "Projects",
-    "section": "",
-    "text": "arXiv Preprint | Code\nOver the centuries, I have devoted countless hours to deciphering and translating the ancient scripts and dialects of the various peoples of Middle-earth. My goal is to gain a deeper understanding of the cultures and histories of these peoples by studying their languages. Currently, I am working on a monograph that explores the linguistic roots of the Elvish languages. Through extensive research and analysis, I hope to shed light on the connections between the different dialects of Elvish and their origins. This project has been particularly challenging, as Elvish is a complex and nuanced language, but I am determined to see it through to completion."
-  },
-  {
-    "objectID": "projects/index.html#the-history-of-the-war-of-the-ring",
-    "href": "projects/index.html#the-history-of-the-war-of-the-ring",
-    "title": "Projects",
-    "section": "The History of the War of the Ring",
-    "text": "The History of the War of the Ring\n\narXiv Preprint | Code\nI am creating a comprehensive and detailed history of the conflict that goes beyond the surface-level events. By gathering information from a variety of sources, including my own memories, written accounts, and oral histories, I hope to shed new light on this important period in Middle-earth’s history and provide valuable insights into the motivations and actions of the various players involved.\n\nView the tutorial for this template (+ download link)"
-  },
-  {
-    "objectID": "test_explaining.html",
-    "href": "test_explaining.html",
-    "title": "Franck MIGONE",
-    "section": "",
-    "text": "# Price Range Validation System\n## Technical Documentation\n### 1. Overview\nThis document describes a data validation system implemented in Python that processes product pricing data and validates it against predefined price ranges. The system reads historical data from Excel files, establishes valid price ranges for products, and cleanses new data based on these ranges.\n### 2. System Architecture\n#### 2.1 File Structure\nThe system operates on the following directory structure:\n```\nProject/\n├── Data_correction1/\n│   ├── juin/\n│   │   └── A_Data_Scrapping_juin.xlsx\n│   └── juillet/\n│       └── [daily files].xlsx\n└── Data_Correction2/\n    └── juillet/\n        └── [cleaned files].xlsx\n```\n#### 2.2 Data Flow\n1. Read reference data from previous month (June)\n2. Create price range dictionary\n3. Process current month’s data (July)\n4. Output cleaned data files\n### 3. Detailed Implementation\n#### 3.1 Reference Data Loading\n```python\nprevious_month_file = os.path.join(“Data_correction1”, “juin”, “A_Data_Scrapping_juin.xlsx”)\naggregated_df = pd.read_excel(previous_month_file)\n```\nThis code loads the reference data containing valid price ranges for products from the June dataset.\n#### 3.2 Price Range Dictionary Creation\n```python\nprice_ranges = {}\nfor _, row in aggregated_df.iterrows():\n    lower_bound, upper_bound = map(float, row[‘fourchette’].split(‘-’))\n    price_ranges[row[‘Libelle_du_produit’]] = (lower_bound, upper_bound)\n```\nThe system creates a dictionary where:\n- Key: Product name (`Libelle_du_produit`)\n- Value: Tuple of (lower_bound, upper_bound)\nMathematical representation:\nLet P be the set of products and R be the set of valid ranges:\n```\nP = {p₁, p₂, ..., pₙ}\nR = {(l₁, u₁), (l₂, u₂), ..., (lₙ, uₙ)}\n```\nwhere lᵢ and uᵢ represent the lower and upper bounds for product pᵢ.\n#### 3.3 Price Validation Function\n```python\ndef is_within_range(product, price):\n    if product not in price_ranges:\n        return None\n    lower_bound, upper_bound = price_ranges[product]\n    return lower_bound &lt;= price &lt;= upper_bound\n```\nMathematical formulation:\nFor a given product p and price x:\n```\nV(p,x) = {\n    True  if l ≤ x ≤ u\n    False if x &lt; l or x &gt; u\n    None  if p ∉ P\n}\n```\nwhere (l,u) is the price range for product p.\n#### 3.4 Data Processing Logic\nThe system processes daily files using the following algorithm:\n1. For each Excel file in the July directory:\n   - Load the daily data\n   - Initialize status and anomaly columns\n   - Process each row:\n     - If product exists in reference data:\n       - Validate price\n       - If invalid, set price to None\n     - If product doesn’t exist:\n       - Skip row\n   - Save cleaned data\nPseudo-algorithm:\n```\nFOR each file F in july_directory:\n    D ← read_excel(F)\n    D’ ← empty_dataframe()\n    FOR each row r in D:\n        IF r.product ∈ price_ranges:\n            IF not is_within_range(r.product, r.price):\n                r.price ← NULL\n            D’.append(r)\n    save_excel(D’, output_directory)\n```\n### 4. System Constraints and Assumptions\n1. Input Data Format:\n   - Excel files (.xlsx)\n   - Required columns:\n     - Libelle_du_produit (Product name)\n     - Prix_du_produit (Product price)\n     - fourchette (Price range in format “lower-upper”)\n2. Price Range Format:\n   - String format: “X-Y”\n   - X and Y are floating-point numbers\n   - X &lt; Y (lower bound less than upper bound)\n3. Data Validation Rules:\n   - Prices must be numeric\n   - Prices must fall within specified ranges\n   - Products must exist in reference data\n### 5. Output Specifications\nThe system generates cleaned Excel files with the following modifications:\n- Invalid prices are set to None\n- Products not in reference data are excluded\n- Original file structure is maintained\n- Additional columns:\n  - status: Validation status\n  - Valeur_Atypique: Anomaly indicator\n### 6. Error Handling\nThe system handles the following cases:\n1. Missing products in reference data\n2. Invalid price values\n3. Out-of-range prices\n4. Missing or malformed input files\n### 7. Performance Considerations\nThe system uses dictionary lookup for price ranges, providing O(1) access time for product validation. The overall complexity is O(n×m) where:\n- n = number of daily files\n- m = number of rows per file\n### 8. Future Enhancements\nPotential improvements could include:\n1. Parallel processing of daily files\n2. Advanced anomaly detection\n3. Automated reporting system\n4. Dynamic price range updates\n5. Data visualization capabilities"
+    "text": "Download my CV"
   }
 ]

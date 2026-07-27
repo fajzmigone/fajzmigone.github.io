@@ -1,120 +1,214 @@
 /*-- scss:defaults --*/
 
-/* From https://github.com/andrewheiss/ath-quarto/blob/main/html/ath.scss */
+$white: #ffffff !default;
+$gray-50: #fbfcfc !default;
+$gray-100: #f4f6f6 !default;
+$gray-200: #e6ebeb !default;
+$gray-500: #718080 !default;
+$gray-700: #3f4d4d !default;
+$gray-900: #1d2929 !default;
 
-$white:    #ffffff !default;
-$gray-100: #f8f9fa !default;
-$gray-200: #e9ecef !default;
-$gray-300: #dee2e6 !default;
-$gray-400: #ced4da !default;
-$gray-500: #adb5bd !default;
-$gray-600: #868e96 !default;
-$gray-700: #495057 !default;
-$gray-800: #373a3c !default;
-$gray-900: #212529 !default;
-$black:    #000000 !default;
+$teal: #0f766e !default;
+$teal-dark: #0b5e58 !default;
 
-$blue:    #2780e3 !default;
-$indigo:  #6610f2 !default;
-$purple:  #170C3A !default;
-$pink:    #A52C60 !default;
-$red:     #CF4446 !default;
-$orange:  #EE6A24 !default;
-$light-orange:  #FB9E07 !default;
-$yellow:  #F6D645 !default;
-$green:   #118230 !default;
-$teal:    #068194 !default;
-$cyan:    #3093CF !default;
-
-$primary:   $teal!default;
+$primary: $teal !default;
 $secondary: $gray-700 !default;
-$success:   $green !default;
-$info:      $cyan !default;
-$warning:   $orange !default;
-$danger:    $red !default;
-$light:     $gray-400 !default;
-$dark:      $black !default;
+$body-bg: $white !default;
+$body-color: $gray-900 !default;
+$font-family-sans-serif: system-ui, -apple-system, 'Segoe UI', sans-serif !default;
+$headings-font-weight: 650 !default;
 
-
-
-// Links
-$link-color: $primary !default;
+$link-color: $teal !default;
 $link-decoration: none !default;
-$link-hover-color: $red !default;
+$link-hover-color: $teal-dark !default;
 $link-hover-decoration: underline !default;
 
-// Footer
-$footer-bg: $gray-900 !default;
-$footer-fg: $gray-300 !default;
+$navbar-bg: $white !default;
+$navbar-fg: $gray-700 !default;
+$navbar-hl: $teal !default;
 
-// Inline code
-$code-bg: $gray-200 !default;
-$code-color: $gray-900 !default;
+$footer-bg: $white !default;
+$footer-fg: $gray-500 !default;
 
-// TOC
-$toc-color: $orange;
-$toc-font-size: 1em;
-
-// Code copy
-$btn-code-copy-color-active: $orange !default;
-
+$border-color: $gray-200 !default;
+$border-radius: 0.35rem !default;
 
 /*-- scss:rules --*/
 
+body {
+  line-height: 1.65;
+}
+
+h1,
+h2,
+h3 {
+  color: $gray-900;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 2.75rem);
+}
+
+h2 {
+  margin-top: 2.5rem;
+}
+
+p,
+li {
+  max-width: 72ch;
+}
+
+.navbar {
+  border-bottom: 1px solid $gray-200;
+  box-shadow: none;
+}
+
+.navbar-brand,
+.navbar-title {
+  color: $gray-900;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+}
+
+.quarto-about-jolla {
+  margin-top: 2rem;
+}
+
+.quarto-about-jolla .about-image {
+  border: 6px solid $gray-100;
+}
+
+.about-link {
+  background: $white;
+  border-color: $gray-200 !important;
+  color: $gray-700 !important;
+}
+
+.about-link:hover {
+  background: $gray-50;
+  border-color: $teal !important;
+  color: $teal-dark !important;
+}
+
+.home-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 1.75rem 0 2.25rem;
+}
+
+.btn {
+  font-weight: 600;
+  padding: 0.55rem 0.9rem;
+}
+
+.research-item {
+  border-bottom: 1px solid $gray-200;
+  padding: 0.15rem 0 1.8rem;
+}
+
+.research-item:last-of-type {
+  border-bottom: 0;
+}
+
+.research-item h2 {
+  font-size: 1.45rem;
+  margin-bottom: 0.65rem;
+}
+
+.research-item p {
+  margin-bottom: 0.75rem;
+}
+
+.teaching-item {
+  border-left: 3px solid $teal;
+  margin: 1.25rem 0;
+  padding: 0.1rem 0 0.1rem 1rem;
+}
+
+.teaching-item h3 {
+  margin-top: 0;
+}
+
+.cv-actions {
+  margin: 1rem 0 1.5rem;
+}
+
+.cv-embed {
+  border: 1px solid $gray-200;
+  border-radius: $border-radius;
+  height: min(82vh, 1000px);
+  overflow: hidden;
+}
+
+.cv-embed iframe {
+  border: 0;
+  height: 100%;
+  width: 100%;
+}
 
 .nav-footer {
-    align-items: flex-start;  // Align all flex items to the top
-    flex-wrap: wrap;
-    border: 0 !important;
-    min-height: 3em;
-    //font-family: $footer-font-family;
+  align-items: center;
+  border-top: 1px solid $gray-200 !important;
+  min-height: 4rem;
+}
 
-    a {
-        color: $primary;
-    }
+.nav-footer a {
+  color: $gray-700;
+}
 
-    .faux-block {
-        display: block;
-        padding-bottom: 0.4em;
-    }
+.nav-footer-left,
+.nav-footer-right {
+  min-height: auto;
+}
 
-    // In the default Quarto template, .nav-footer-center has position: absolute 
-    // turned on, which makes the div not be a flex item
-    // This changes that so that it *is* a flex item
-    .nav-footer-center {
-        text-align: center;
-        position: inherit;
-        margin-top: 0;
+@media (max-width: 767.98px) {
+  .quarto-about-jolla {
+    margin-top: 1rem;
+    max-width: 100%;
+    min-width: 0;
+    width: 100%;
+  }
 
-        @media (max-width: map-get($grid-breakpoints, md)) {
-            margin-top: 0.5em;
-            margin-bottom: 1.5em;
-        }
-    }
+  .quarto-about-jolla main.content {
+    max-width: calc(100vw - 3rem);
+    min-width: 0;
+    padding-inline: 0;
+    width: calc(100vw - 3rem);
+  }
 
-    // When the screen is medium or smaller, make each footer chunk be 100% width 
-    // and centered; otherwise make them be 33% width and left/right/centerd
-    .nav-footer-left,
-    .nav-footer-right,
-    .nav-footer-center {
-        text-align: center;
-        width: 100%;
-        min-height: 2em;
-    }
+  .quarto-about-jolla main.content p,
+  .quarto-about-jolla main.content li {
+    overflow-wrap: anywhere;
+  }
 
-    @media (min-width: map-get($grid-breakpoints, md)) {
-        .nav-footer-left {
-            text-align: left;
-        }
+  .home-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
 
-        .nav-footer-right {
-            text-align: right;
-        }
+  .home-actions .btn {
+    width: 100%;
+  }
 
-        .nav-footer-left,
-        .nav-footer-right,
-        .nav-footer-center {
-            flex: 1 1 33%;
-        }
-    }
+  .home-actions p {
+    margin-bottom: 0;
+    width: 100%;
+  }
+
+  .cv-embed {
+    height: 70vh;
+  }
+
+  .nav-footer-left,
+  .nav-footer-right {
+    text-align: center;
+    width: 100%;
+  }
 }

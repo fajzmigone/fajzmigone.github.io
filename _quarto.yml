@@ -1,63 +1,53 @@
-# This file controls the settings for your Quarto template from www.marvinschmitt.com
-
-# website settings
 website:
-  title: "Franck MIGONE"                                # Your name
-  description: "Economics powered by AI for decision making"   # A brief slogan (optional)
+  title: Franck Migone
+  description: Economist and statistician working on data, public policy, and economic development.
+  site-url: https://fajzmigone.github.io
   image: img/fmigone.jpg
-  
-  #favicon: img/favicon.png
-  
-  # start of the navigation bar at the top of the website
+  favicon: img/favicon.png
+
   navbar:
     pinned: true
-    #logo: /img/logo.png
-    
-    # your sub-pages
-    right:
-      - text: "Research"
-        href: research/index.qmd
-      #- text: "Projects"
-       # href: projects/index.qmd
-      - text: "Teaching"
-        href: Useful_Ressources/index.qmd
-      - text: "CV"
-        href: cv/index.qmd
-      - text: "Econ Blog"
-        href: https://econpolicyml.substack.com/
-      
-    
-    # your social media handles
     left:
-      - icon: folder-symlink
-        href: https://fajzmigone.github.io/
-      - icon: twitter
-        href: https://twitter.com/fajmigone
+      - icon: github
+        aria-label: GitHub
+        href: https://github.com/fmigone
       - icon: linkedin
+        aria-label: LinkedIn
         href: https://www.linkedin.com/in/franck-migone/
       - icon: envelope
-        aria-label: email
-        href: "mailto:franckmigone@gmail.com"  
-  
-  
+        aria-label: Email
+        href: mailto:franckmigone@gmail.com
+    right:
+      - text: Research
+        href: research/index.qmd
+      - text: Teaching
+        href: Useful_Ressources/index.qmd
+      - text: CV
+        href: cv/index.qmd
+      - text: Econ Blog
+        href: https://econpolicyml.substack.com/
 
-# Don't touch unless you know what you are doing :) ------------
-  search: 
+  search:
     location: navbar
-    type: textbox
-  page-footer: 
+    type: overlay
+  open-graph: true
+
+  page-footer:
     left: |
-      <span class="faux-block">&#169; 2024 Franck MIGONE CC BY-SA 4.0</span>
-    center: |
-       
+      <span class='faux-block'>&#169; 2026 Franck Migone</span>
     right: |
-      
+      <a href='https://creativecommons.org/licenses/by-sa/4.0/' target='_blank'>CC BY-SA 4.0</a>
 
 project:
   type: website
   output-dir: docs
-
-  preview: 
+  render:
+    - index.qmd
+    - research/index.qmd
+    - Useful_Ressources/index.qmd
+    - cv/index.qmd
+    - 404.qmd
+  preview:
     port: 22222
     browser: true
     watch-inputs: true
@@ -68,13 +58,13 @@ execute:
 
 format:
   html:
-    fontsize: 1.1em
-    theme: 
+    lang: en
+    fontsize: 1.05em
+    theme:
       - pulse
       - html/styles.scss
     toc: false
     code-link: true
     anchor-sections: true
-    fig-cap-location: margin
-    reference-location: margin
     footnotes-hover: true
+    link-external-newwindow: true
