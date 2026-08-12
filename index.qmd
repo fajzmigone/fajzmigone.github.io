@@ -1,9 +1,11 @@
 ---
 title: Franck Migone
 subtitle: Economist & statistician
+include-in-header: html/head-home.html
 about:
   template: jolla
   image: img/fmigone.jpg
+  image-alt: Portrait of Franck Migone
   image-shape: round
   image-width: 14em
   links:

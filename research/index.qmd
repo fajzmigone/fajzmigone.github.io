@@ -9,10 +9,11 @@ data sources for economic measurement.
 ::: {.research-item}
 ## Fiscalité, informalité, transferts et pauvreté en Côte d’Ivoire: une analyse d’incidence sur l’EHCVM 2021
 
-*With Armand Djaha and N’Dre Lebe*
+[*With Armand Djaha and N’Dre Lebe*]{.paper-authors}
 
-**Working paper** · [Read the paper](papers/fiscalite-informalite-transferts-pauvrete-cote-ivoire-2026.pdf) · [Replication code](https://github.com/cae-ins/anstat-microsim)
+[**Working paper** · [Read the paper](papers/fiscalite-informalite-transferts-pauvrete-cote-ivoire-2026.pdf) · [Replication code](https://github.com/cae-ins/anstat-microsim)]{.paper-meta}
 
+::: {.paper-abstract lang="fr"}
 *Résumé.* Cette étude mesure l’incidence des impôts et des dépenses publiques
 en Côte d’Ivoire à partir de l’EHCVM 2021, dans une analyse *Commitment to
 Equity* ancrée sur la consommation par personne. Elle combine barèmes fiscaux,
@@ -27,12 +28,14 @@ Dans une simulation comptable à quantités fixes, une TVA de 9 % sur certaines
 ventes finales accroît la pauvreté de 0,47 point sans compensation; le recyclage
 intégral de la recette par personne la réduit de 0,22 point.
 :::
+:::
 
 ::: {.research-item}
 ## Job Quality and Poverty in Developing Countries: Evidence from Côte d’Ivoire
 
-**Working paper** · [Read the paper](https://drive.google.com/file/d/1jo8JqBBzvfliCmEQC0UG4NHShR-NiNCe/view?usp=sharing)
+[**Working paper** · [Read the paper](https://drive.google.com/file/d/1jo8JqBBzvfliCmEQC0UG4NHShR-NiNCe/view?usp=sharing)]{.paper-meta}
 
+::: {.paper-abstract}
 *Abstract.* This study analyzes the influence of household members’ job quality
 on household poverty status in Côte d’Ivoire using data from the 2018
 Harmonized Survey of Household Living Conditions. Using simple probit
@@ -44,14 +47,16 @@ workers, policymakers should promote women’s access to high-quality jobs. This
 could involve investing in social facilities to relieve the burden of caring
 for children in the household.
 :::
+:::
 
 ::: {.research-item}
 ## The Causal Impact of Armed Conflict on Education Outcomes in Mali
 
-*With Josias Sadia*
+[*With Josias Sadia*]{.paper-authors}
 
-**Working paper** · [Read the paper](https://drive.google.com/file/d/1kvELyRo6ru2XATIfZkzbS5NQ27Km8HPY/view?usp=sharing)
+[**Working paper** · [Read the paper](https://drive.google.com/file/d/1kvELyRo6ru2XATIfZkzbS5NQ27Km8HPY/view?usp=sharing)]{.paper-meta}
 
+::: {.paper-abstract}
 *Abstract.* This study, using a double-difference methodology and propensity
 score matching, analyses the causal impact of Mali’s prolonged crises and
 conflicts on the Malian education system. The results indicate that these
@@ -63,14 +68,16 @@ measures to mitigate these adverse effects and re-establish a functional
 education system in the country, highlighting the importance of understanding
 the causal impact of the crises on education in Mali.
 :::
+:::
 
 ::: {.research-item}
 ## Exposure to Violence and Academic Performance Among Adolescents in Côte d’Ivoire
 
-*With Sekongo Coulibaly*
+[*With Sekongo Coulibaly*]{.paper-authors}
 
-**Working paper** · [Read the paper](https://drive.google.com/file/d/1hsOuKR41ZenMkJwZHB-_QiBoDGeIZ5N1/view?usp=sharing)
+[**Working paper** · [Read the paper](https://drive.google.com/file/d/1hsOuKR41ZenMkJwZHB-_QiBoDGeIZ5N1/view?usp=sharing)]{.paper-meta}
 
+::: {.paper-abstract}
 *Abstract.* This study analyzes the effects of exposure to violence on the
 academic performance of children aged 13 to 18 in Côte d’Ivoire. We examine how
 physical, emotional, and sexual abuse affect students’ academic performance
@@ -83,15 +90,17 @@ grade delay, especially when perpetrated by close adults. Sexual violence does
 not show direct effects on academic outcomes in our sample, although it may
 lead to indirect consequences.
 :::
+:::
 
 ::: {.research-item}
 ## Estimating Poverty with Satellite Imagery in Developing Countries: Evidence from Côte d’Ivoire
 
-*With Koné Kinin Mamadou, Kouamé Moussa Richard, Koné Djoudori Joachim,
-Kouassi Kouamé Aristide, and Doukouré Daouda*
+[*With Koné Kinin Mamadou, Kouamé Moussa Richard, Koné Djoudori Joachim,
+Kouassi Kouamé Aristide, and Doukouré Daouda*]{.paper-authors}
 
-**Working paper** · [Read the paper](https://gouvci-my.sharepoint.com/:b:/g/personal/j_migone_stat_plan_gouv_ci/IQCuKg5LwElMSKoG3dK40V69AcFoFGnZSRnBp4MiBgEz0wk?e=tdONmd)
+[**Working paper** · [Read the paper](https://gouvci-my.sharepoint.com/:b:/g/personal/j_migone_stat_plan_gouv_ci/IQCuKg5LwElMSKoG3dK40V69AcFoFGnZSRnBp4MiBgEz0wk?e=tdONmd)]{.paper-meta}
 
+::: {.paper-abstract}
 *Abstract.* This study develops a methodology for estimating poverty in Côte
 d’Ivoire using Sentinel-2 satellite imagery and deep-learning transfer
 techniques. The approach follows a three-stage pipeline: pre-training a VGG16
@@ -106,6 +115,7 @@ survey data: 39.98% predicted versus 39.44% observed in 2018, and 37.86% versus
 37.50% in 2021. Temporal validation confirms the approach’s capacity to
 capture poverty dynamics, offering a cost-effective complementary tool for
 monitoring poverty between survey waves in Sub-Saharan Africa.
+:::
 :::
 
 ## Work in progress

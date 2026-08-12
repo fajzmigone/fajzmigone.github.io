@@ -2,7 +2,7 @@ website:
   title: Franck Migone
   description: Economist and statistician working on data, public policy, and economic development.
   site-url: https://fajzmigone.github.io
-  image: img/fmigone.jpg
+  image: /img/fmigone.jpg
   favicon: img/favicon.svg
 
   navbar:
@@ -31,6 +31,7 @@ website:
     location: navbar
     type: overlay
   open-graph: true
+  twitter-card: true
 
   page-footer:
     left: |
@@ -47,6 +48,8 @@ project:
     - Useful_Ressources/index.qmd
     - cv/index.qmd
     - 404.qmd
+  resources:
+    - img/favicon.png
   preview:
     port: 22222
     browser: true
@@ -64,6 +67,7 @@ format:
       - pulse
       - html/styles.scss
     toc: false
+    include-in-header: html/head.html
     code-link: true
     anchor-sections: true
     footnotes-hover: true

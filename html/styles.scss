@@ -5,6 +5,9 @@ $gray-50: #fbfcfc !default;
 $gray-100: #f4f6f6 !default;
 $gray-200: #e6ebeb !default;
 $gray-500: #718080 !default;
+// 4.95:1 on white — the lightest tone that still clears WCAG AA for body text,
+// used for secondary text (author lines, paper metadata, footer).
+$gray-550: #647373 !default;
 $gray-700: #3f4d4d !default;
 $gray-900: #1d2929 !default;
 
@@ -28,7 +31,7 @@ $navbar-fg: $gray-700 !default;
 $navbar-hl: $teal !default;
 
 $footer-bg: $white !default;
-$footer-fg: $gray-500 !default;
+$footer-fg: $gray-550 !default;
 
 $border-color: $gray-200 !default;
 $border-radius: 0.35rem !default;
@@ -60,6 +63,20 @@ li {
   max-width: 72ch;
 }
 
+/* Content links carry a discreet underline so they are identifiable without
+   relying on colour alone (WCAG 1.4.1). Navigation, buttons and the about
+   links keep the plain treatment. */
+main.content a:not(.btn):not(.about-link):not(.anchorjs-link) {
+  text-decoration: underline;
+  text-decoration-color: rgba($teal, 0.35);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+}
+
+main.content a:not(.btn):not(.about-link):not(.anchorjs-link):hover {
+  text-decoration-color: $teal-dark;
+}
+
 .navbar {
   border-bottom: 1px solid $gray-200;
   box-shadow: none;
@@ -81,7 +98,8 @@ li {
 }
 
 .quarto-about-jolla .about-image {
-  border: 6px solid $gray-100;
+  border: 5px solid $white;
+  box-shadow: 0 0 0 1px $gray-200, 0 8px 24px rgba(29, 41, 41, 0.09);
 }
 
 .about-link {
@@ -119,21 +137,63 @@ li {
 
 .research-item h2 {
   font-size: 1.45rem;
-  margin-bottom: 0.65rem;
+  margin-bottom: 0.45rem;
 }
 
 .research-item p {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.6rem;
+}
+
+.paper-authors {
+  color: $gray-550;
+  display: block;
+  font-size: 0.94rem;
+}
+
+.paper-meta {
+  color: $gray-550;
+  display: block;
+  font-size: 0.925rem;
+}
+
+.paper-meta strong {
+  color: $gray-700;
+  font-weight: 600;
+}
+
+.paper-abstract {
+  color: $gray-700;
+  font-size: 0.965rem;
+  margin-top: 0.85rem;
+}
+
+.paper-abstract em:first-child {
+  color: $gray-900;
+  font-style: normal;
+  font-weight: 600;
 }
 
 .teaching-item {
-  border-left: 3px solid $teal;
+  border-left: 2px solid $gray-200;
   margin: 1.25rem 0;
   padding: 0.1rem 0 0.1rem 1rem;
+  transition: border-color 0.15s ease;
+}
+
+.teaching-item:hover {
+  border-left-color: $teal;
 }
 
 .teaching-item h3 {
+  font-size: 1.2rem;
   margin-top: 0;
+}
+
+/* The affiliation line sits under the course title; keeping it lighter than
+   the heading preserves the hierarchy. */
+.teaching-item p strong {
+  color: $gray-550;
+  font-weight: 500;
 }
 
 .cv-actions {
