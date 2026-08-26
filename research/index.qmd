@@ -118,6 +118,22 @@ monitoring poverty between survey waves in Sub-Saharan Africa.
 :::
 :::
 
+::: {.research-item}
+## AI Exposure in a Dual Labor Market: Evidence from Côte d’Ivoire’s National Employment Survey
+
+[**Work in progress** · August 2026]{.paper-meta}
+
+::: {.paper-abstract}
+This project asks how much of the occupational exposure to artificial
+intelligence measured in advanced economies is reachable in a labor market
+dominated by informal work. It links GPT and AI Occupational Exposure scores
+to Côte d’Ivoire’s National Employment Survey, then combines them with data on
+firms’ digital readiness, workers’ reported tasks, and observed AI use. The
+analysis distinguishes technical exposure from the exposure that current
+infrastructure and local job content make practically reachable.
+:::
+:::
+
 ## Work in progress
 
 - **Job creation and job destruction in Côte d’Ivoire, 2016–2024** — With Ehouman Zora

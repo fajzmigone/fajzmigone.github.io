@@ -84,6 +84,13 @@
     "text": "Estimating Poverty with Satellite Imagery in Developing Countries: Evidence from Côte d’Ivoire\nWith Koné Kinin Mamadou, Kouamé Moussa Richard, Koné Djoudori Joachim, Kouassi Kouamé Aristide, and Doukouré Daouda\nWorking paper · Read the paper\n\nAbstract. This study develops a methodology for estimating poverty in Côte d’Ivoire using Sentinel-2 satellite imagery and deep-learning transfer techniques. The approach follows a three-stage pipeline: pre-training a VGG16 convolutional neural network on ImageNet, fine-tuning it to predict nighttime light intensity from daytime imagery, and extracting visual features for poverty prediction. Using data from the 2018–2019 Harmonized Household Living Conditions Survey covering 12,992 households, visual features are enriched with spectral indices including NO₂ concentration, land surface temperature, and the Enhanced Normalized Difference Impervious Surface Index. The best model achieves an R² of 40.15%, with predictions remarkably consistent with survey data: 39.98% predicted versus 39.44% observed in 2018, and 37.86% versus 37.50% in 2021. Temporal validation confirms the approach’s capacity to capture poverty dynamics, offering a cost-effective complementary tool for monitoring poverty between survey waves in Sub-Saharan Africa."
   },
   {
+    "objectID": "research/index.html#ai-exposure-in-a-dual-labor-market-evidence-from-côte-divoires-national-employment-survey",
+    "href": "research/index.html#ai-exposure-in-a-dual-labor-market-evidence-from-côte-divoires-national-employment-survey",
+    "title": "Research",
+    "section": "AI Exposure in a Dual Labor Market: Evidence from Côte d’Ivoire’s National Employment Survey",
+    "text": "AI Exposure in a Dual Labor Market: Evidence from Côte d’Ivoire’s National Employment Survey\nWork in progress · August 2026\n\nThis project asks how much of the occupational exposure to artificial intelligence measured in advanced economies is reachable in a labor market dominated by informal work. It links GPT and AI Occupational Exposure scores to Côte d’Ivoire’s National Employment Survey, then combines them with data on firms’ digital readiness, workers’ reported tasks, and observed AI use. The analysis distinguishes technical exposure from the exposure that current infrastructure and local job content make practically reachable."
+  },
+  {
     "objectID": "research/index.html#work-in-progress",
     "href": "research/index.html#work-in-progress",
     "title": "Research",
