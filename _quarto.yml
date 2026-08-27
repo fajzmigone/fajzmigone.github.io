@@ -50,6 +50,7 @@ project:
     - 404.qmd
   resources:
     - img/favicon.png
+    - google01b4a3dcc8952021.html
   preview:
     port: 22222
     browser: true
