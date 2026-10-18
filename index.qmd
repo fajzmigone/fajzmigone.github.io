@@ -1,6 +1,6 @@
 ---
 title: Franck Migone
-subtitle: Economist & statistician
+subtitle: Economist, statistician & PhD candidate
 include-in-header: html/head-home.html
 about:
   template: jolla
@@ -20,7 +20,8 @@ about:
       href: mailto:franckmigone@gmail.com
 ---
 
-I work at the intersection of official statistics, public policy, and data science.
+I am an economist-statistician and PhD candidate in Economics at ENSEA. I work
+at the intersection of official statistics, public policy, and data science.
 Since 2021, I have worked at Côte d’Ivoire’s National Agency of Statistics
 (ANSTAT), where I serve as Deputy Director for Methodological Innovation and
 Head of DataLaB, ANSTAT’s data innovation lab.
@@ -39,5 +40,6 @@ Côte d’Ivoire and West Africa.
 ## Current focus
 
 - **Economic measurement:** labor markets, poverty, education, and household welfare.
+- **Doctoral research:** labor-market frictions in Côte d’Ivoire.
 - **Statistical innovation:** AI, satellite imagery, big data, and survey methods.
 - **Knowledge sharing:** teaching econometrics and sampling, and writing about economics and data.
