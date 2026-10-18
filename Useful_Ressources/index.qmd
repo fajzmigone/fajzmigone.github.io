@@ -6,6 +6,26 @@ description: Courses, conference participation, and useful resources for applied
 ## Teaching
 
 ::: {.teaching-item}
+### Survey Sampling
+
+**ENSEA, Abidjan · Semester 2 · 2026–2027 · 25 hours · 2.5 credits**
+
+This course develops the methodological foundations needed to design sample
+surveys while accounting for the practical constraints of fieldwork, prior
+information, and the study setting.
+
+The syllabus covers:
+
+- survey design, data-collection methods, and sources of survey error (2 hours);
+- simple random sampling, estimation, precision, and sample selection (5 hours);
+- non-probability methods, including quota, route, typical-unit, and volunteer sampling (6 hours); and
+- designs using auxiliary information: unequal probabilities, stratification,
+  multistage sampling, and cluster sampling (12 hours).
+
+Assessment is based on one written examination.
+:::
+
+::: {.teaching-item}
 ### STT 504 — Sampling
 
 **Master 2 Data Science & Statistics · Université Soumaré, Abidjan · 2025–2026**
