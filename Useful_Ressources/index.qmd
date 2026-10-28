@@ -55,6 +55,5 @@ Assessment is based on one written examination.
 ### Books, talks & explainers
 
 - [Causality for the Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html), a practical causal-inference handbook.
-- [Econimate](https://t.co/5O0ziYSjJy), animated explanations of economics research.
+- [Econimate](https://youtube.com/econimate), animated explanations of economics research.
 - [Public speaking for academic economists](https://gouvci-my.sharepoint.com/:b:/g/personal/j_migone_stat_plan_gouv_ci/EbLOkKzRI5tNs2JG9tTGwFoBXj5IbXdcpepUSA_MRmcjjg?e=8mnZ5F), by Rachael Meager.
-- [Microsimulating the impact of public policies on households](https://gouvci-my.sharepoint.com/:b:/g/personal/j_migone_stat_plan_gouv_ci/EbLOkKzRI5tNs2JG9tTGwFoBXj5IbXdcpepUSA_MRmcjjg?e=YH6Qcw) (in French).

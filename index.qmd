@@ -1,6 +1,6 @@
 ---
 title: Franck Migone
-subtitle: Economist, statistician & PhD candidate
+subtitle: Economist, Statistician & PhD Candidate · Official Statistics, Labor Markets & AI for Development
 include-in-header: html/head-home.html
 about:
   template: jolla

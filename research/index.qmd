@@ -6,8 +6,10 @@ description: Selected working papers and ongoing research.
 My research focuses on labor markets, poverty, education, and the use of new
 data sources for economic measurement.
 
+## Working papers
+
 ::: {.research-item}
-## Fiscalité, informalité, transferts et pauvreté en Côte d’Ivoire: une analyse d’incidence sur l’EHCVM 2021
+### Fiscalité, informalité, transferts et pauvreté en Côte d’Ivoire: une analyse d’incidence sur l’EHCVM 2021
 
 [*With Armand Djaha and N’Dre Lebe*]{.paper-authors}
 
@@ -31,7 +33,7 @@ intégral de la recette par personne la réduit de 0,22 point.
 :::
 
 ::: {.research-item}
-## Job Quality and Poverty in Developing Countries: Evidence from Côte d’Ivoire
+### Job Quality and Poverty in Developing Countries: Evidence from Côte d’Ivoire
 
 [**Working paper** · [Read the paper](https://drive.google.com/file/d/1jo8JqBBzvfliCmEQC0UG4NHShR-NiNCe/view?usp=sharing)]{.paper-meta}
 
@@ -50,11 +52,11 @@ for children in the household.
 :::
 
 ::: {.research-item}
-## The Causal Impact of Armed Conflict on Education Outcomes in Mali
+### The Causal Impact of Armed Conflict on Education Outcomes in Mali
 
 [*With Josias Sadia*]{.paper-authors}
 
-[**Working paper** · [Read the paper](https://drive.google.com/file/d/1kvELyRo6ru2XATIfZkzbS5NQ27Km8HPY/view?usp=sharing)]{.paper-meta}
+[**Working paper** · [Read the paper](https://drive.google.com/file/d/1kvELyRo6ru2XATIfZkzbS5NQ27Km8HPY/view?usp=sharing) · [Code](https://github.com/cae-ins/Conflict_Education_Mali)]{.paper-meta}
 
 ::: {.paper-abstract}
 *Abstract.* This study, using a double-difference methodology and propensity
@@ -71,7 +73,7 @@ the causal impact of the crises on education in Mali.
 :::
 
 ::: {.research-item}
-## Exposure to Violence and Academic Performance Among Adolescents in Côte d’Ivoire
+### Exposure to Violence and Academic Performance Among Adolescents in Côte d’Ivoire
 
 [*With Sekongo Coulibaly*]{.paper-authors}
 
@@ -93,12 +95,12 @@ lead to indirect consequences.
 :::
 
 ::: {.research-item}
-## Estimating Poverty with Satellite Imagery in Developing Countries: Evidence from Côte d’Ivoire
+### Estimating Poverty with Satellite Imagery in Developing Countries: Evidence from Côte d’Ivoire
 
 [*With Koné Kinin Mamadou, Kouamé Moussa Richard, Koné Djoudori Joachim,
 Kouassi Kouamé Aristide, and Doukouré Daouda*]{.paper-authors}
 
-[**Working paper** · [Read the paper](https://gouvci-my.sharepoint.com/:b:/g/personal/j_migone_stat_plan_gouv_ci/IQCuKg5LwElMSKoG3dK40V69AcFoFGnZSRnBp4MiBgEz0wk?e=tdONmd)]{.paper-meta}
+[**Working paper** · [Read the paper](https://gouvci-my.sharepoint.com/:b:/g/personal/j_migone_stat_plan_gouv_ci/IQCuKg5LwElMSKoG3dK40V69AcFoFGnZSRnBp4MiBgEz0wk?e=tdONmd) · [Code](https://github.com/cae-ins/Estimation_Pauvrete_DeepLearning)]{.paper-meta}
 
 ::: {.paper-abstract}
 *Abstract.* This study develops a methodology for estimating poverty in Côte
@@ -118,8 +120,10 @@ monitoring poverty between survey waves in Sub-Saharan Africa.
 :::
 :::
 
+## Work in progress
+
 ::: {.research-item}
-## AI Exposure in a Dual Labor Market: Evidence from Côte d’Ivoire’s National Employment Survey
+### AI Exposure in a Dual Labor Market: Evidence from Côte d’Ivoire’s National Employment Survey
 
 [**Work in progress** · August 2026]{.paper-meta}
 
@@ -134,6 +138,10 @@ infrastructure and local job content make practically reachable.
 :::
 :::
 
-## Work in progress
+::: {.research-item}
+### Job Creation and Job Destruction in Côte d’Ivoire, 2016–2024
 
-- **Job creation and job destruction in Côte d’Ivoire, 2016–2024** — With Ehouman Zora
+[*With Ehouman Zora*]{.paper-authors}
+
+[**Work in progress**]{.paper-meta}
+:::
