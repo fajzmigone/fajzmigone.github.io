@@ -16,10 +16,12 @@ website:
         href: https://www.linkedin.com/in/franck-migone/
       - icon: envelope
         aria-label: Email
-        href: mailto:franckmigone@gmail.com
+        href: mailto:migonefranck@gmail.com
     right:
       - text: Research
         href: research/index.qmd
+      - text: DataLab & Innovation
+        href: innovation/index.qmd
       - text: Teaching
         href: Useful_Ressources/index.qmd
       - text: CV
@@ -45,6 +47,7 @@ project:
   render:
     - index.qmd
     - research/index.qmd
+    - innovation/index.qmd
     - Useful_Ressources/index.qmd
     - cv/index.qmd
     - 404.qmd

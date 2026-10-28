@@ -17,14 +17,15 @@ about:
       href: https://www.linkedin.com/in/franck-migone/
     - icon: envelope
       text: Email
-      href: mailto:franckmigone@gmail.com
+      href: mailto:migonefranck@gmail.com
 ---
 
 I am an economist-statistician and PhD candidate in Economics at ENSEA. I work
 at the intersection of official statistics, public policy, and data science.
 Since 2021, I have worked at Côte d’Ivoire’s National Agency of Statistics
-(ANSTAT), where I serve as Deputy Director for Methodological Innovation and
-Head of DataLaB, ANSTAT’s data innovation lab.
+(ANSTAT), where I serve as Deputy Director for Innovation, Data, Research and
+Methodology and Head of DataLaB, ANSTAT’s data innovation lab. See my
+[innovation work](innovation/index.qmd).
 
 My work explores how artificial intelligence, big data, and modern survey
 methods can improve economic measurement and public decision-making. I am

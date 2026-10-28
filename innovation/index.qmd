@@ -1,0 +1,57 @@
+---
+title: DataLab, Innovation & Statistical Research
+description: Open-source code from ANSTAT's DataLab and its work on innovation and statistical research in Côte d'Ivoire.
+---
+
+At Côte d'Ivoire's National Agency of Statistics (ANSTAT), I lead the
+sub-directorate for innovation, data, research and methodology, and I founded
+DataLab, the agency's data innovation lab. The projects below are part of my
+innovation work at ANSTAT: data infrastructure, methods, and tools for
+producing official statistics. Their code is published openly on GitHub.
+
+::: {.home-actions}
+[All repositories on GitHub](https://github.com/cae-ins){.btn .btn-primary}
+[chat.anstat.ci](https://chat.anstat.ci){.btn .btn-outline-primary}
+:::
+
+## Data and AI infrastructure
+
+::: {.teaching-item}
+### Sovereign data science platform
+
+A self-hosted platform for data science and statistical analysis at ANSTAT and
+across the national statistical system: Kubernetes, single sign-on, object
+storage, Onyxia and JupyterHub workspaces, and GPU model serving.
+
+[onyxia-like](https://github.com/cae-ins/onyxia-like) · [Data_Plateform](https://github.com/cae-ins/Data_Plateform) (technical documentation) · [ene_medallion_orchestration](https://github.com/cae-ins/ene_medallion_orchestration) (moving survey files through the platform's medallion storage)
+:::
+
+::: {.teaching-item}
+### Language models for official statistics
+
+[chat.anstat.ci](https://chat.anstat.ci) is a public assistant that answers
+questions on official statistics in plain language, built on open-source
+language models and retrieval-augmented generation.
+
+[rag_anstat](https://github.com/cae-ins/rag_anstat) (question answering over ANSTAT reports) · [rp_remote_analysis](https://github.com/cae-ins/rp_remote_analysis) (natural-language access to census data) · [codif_rag_ene](https://github.com/cae-ins/codif_rag_ene) (automatic coding of survey answers with embeddings and vector search)
+:::
+
+## Statistical methods and research
+
+::: {.teaching-item}
+### Survey methodology
+
+[enem_weight_nv](https://github.com/cae-ins/enem_weight_nv) (design weights, non-response adjustment, and calibration for the national employment survey) · [ReGenesees](https://github.com/cae-ins/ReGenesees) (ANSTAT's adapted version of the calibration package) · [enem-suivi-app](https://github.com/cae-ins/enem-suivi-app) (fieldwork monitoring application)
+:::
+
+::: {.teaching-item}
+### Poverty and public policy
+
+[afmpi](https://github.com/cae-ins/afmpi) (Alkire–Foster multidimensional poverty measurement in Python) · [anstat-microsim](https://github.com/cae-ins/anstat-microsim) (tax–benefit microsimulation model)
+:::
+
+::: {.teaching-item}
+### New data sources
+
+[panel_admin_data](https://github.com/cae-ins/panel_admin_data) (ETL pipeline for public-sector payroll data, 2015–2025) · [Webscraping_Offre_Emploi](https://github.com/cae-ins/Webscraping_Offre_Emploi) (collection and analysis of online job ads) · [Estimation_Pauvrete_DeepLearning](https://github.com/cae-ins/Estimation_Pauvrete_DeepLearning) (poverty estimation from satellite images) · [access-remoteness-platform](https://github.com/cae-ins/access-remoteness-platform) (accessibility and remoteness indicators, with a simulation app) · [image_drone](https://github.com/cae-ins/image_drone) (processing of drone imagery)
+:::

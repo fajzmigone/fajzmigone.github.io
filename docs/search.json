@@ -28,20 +28,6 @@
     "text": "Useful resources\n\nData visualization\n\nStata visual library\nR visual library\nAn Economist’s Guide to Visualizing Data\n\n\n\nBooks, talks & explainers\n\nCausality for the Brave and True, a practical causal-inference handbook.\nEconimate, animated explanations of economics research.\nPublic speaking for academic economists, by Rachael Meager.\nMicrosimulating the impact of public policies on households (in French)."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Franck Migone",
-    "section": "",
-    "text": "I am an economist-statistician and PhD candidate in Economics at ENSEA. I work at the intersection of official statistics, public policy, and data science. Since 2021, I have worked at Côte d’Ivoire’s National Agency of Statistics (ANSTAT), where I serve as Deputy Director for Methodological Innovation and Head of DataLaB, ANSTAT’s data innovation lab.\nMy work explores how artificial intelligence, big data, and modern survey methods can improve economic measurement and public decision-making. I am particularly interested in labor markets, poverty, and economic development in Côte d’Ivoire and West Africa."
-  },
-  {
-    "objectID": "index.html#current-focus",
-    "href": "index.html#current-focus",
-    "title": "Franck Migone",
-    "section": "Current focus",
-    "text": "Current focus\n\nEconomic measurement: labor markets, poverty, education, and household welfare.\nDoctoral research: labor-market frictions in Côte d’Ivoire.\nStatistical innovation: AI, satellite imagery, big data, and survey methods.\nKnowledge sharing: teaching econometrics and sampling, and writing about economics and data."
-  },
-  {
     "objectID": "research/index.html",
     "href": "research/index.html",
     "title": "Research",
@@ -96,6 +82,41 @@
     "title": "Research",
     "section": "Work in progress",
     "text": "Work in progress\n\nJob creation and job destruction in Côte d’Ivoire, 2016–2024 — With Ehouman Zora"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Franck Migone",
+    "section": "",
+    "text": "I am an economist-statistician and PhD candidate in Economics at ENSEA. I work at the intersection of official statistics, public policy, and data science. Since 2021, I have worked at Côte d’Ivoire’s National Agency of Statistics (ANSTAT), where I serve as Deputy Director for Innovation, Data, Research and Methodology and Head of DataLaB, ANSTAT’s data innovation lab. See my innovation work.\nMy work explores how artificial intelligence, big data, and modern survey methods can improve economic measurement and public decision-making. I am particularly interested in labor markets, poverty, and economic development in Côte d’Ivoire and West Africa."
+  },
+  {
+    "objectID": "index.html#current-focus",
+    "href": "index.html#current-focus",
+    "title": "Franck Migone",
+    "section": "Current focus",
+    "text": "Current focus\n\nEconomic measurement: labor markets, poverty, education, and household welfare.\nDoctoral research: labor-market frictions in Côte d’Ivoire.\nStatistical innovation: AI, satellite imagery, big data, and survey methods.\nKnowledge sharing: teaching econometrics and sampling, and writing about economics and data."
+  },
+  {
+    "objectID": "innovation/index.html",
+    "href": "innovation/index.html",
+    "title": "DataLab, Innovation & Statistical Research",
+    "section": "",
+    "text": "At Côte d’Ivoire’s National Agency of Statistics (ANSTAT), I lead the sub-directorate for innovation, data, research and methodology, and I founded DataLab, the agency’s data innovation lab. The projects below are part of my innovation work at ANSTAT: data infrastructure, methods, and tools for producing official statistics. Their code is published openly on GitHub."
+  },
+  {
+    "objectID": "innovation/index.html#data-and-ai-infrastructure",
+    "href": "innovation/index.html#data-and-ai-infrastructure",
+    "title": "DataLab, Innovation & Statistical Research",
+    "section": "Data and AI infrastructure",
+    "text": "Data and AI infrastructure\n\nSovereign data science platform\nA self-hosted platform for data science and statistical analysis at ANSTAT and across the national statistical system: Kubernetes, single sign-on, object storage, Onyxia and JupyterHub workspaces, and GPU model serving.\nonyxia-like · Data_Plateform (technical documentation) · ene_medallion_orchestration (moving survey files through the platform’s medallion storage)\n\n\nLanguage models for official statistics\nchat.anstat.ci is a public assistant that answers questions on official statistics in plain language, built on open-source language models and retrieval-augmented generation.\nrag_anstat (question answering over ANSTAT reports) · rp_remote_analysis (natural-language access to census data) · codif_rag_ene (automatic coding of survey answers with embeddings and vector search)"
+  },
+  {
+    "objectID": "innovation/index.html#statistical-methods-and-research",
+    "href": "innovation/index.html#statistical-methods-and-research",
+    "title": "DataLab, Innovation & Statistical Research",
+    "section": "Statistical methods and research",
+    "text": "Statistical methods and research\n\nSurvey methodology\nenem_weight_nv (design weights, non-response adjustment, and calibration for the national employment survey) · ReGenesees (ANSTAT’s adapted version of the calibration package) · enem-suivi-app (fieldwork monitoring application)\n\n\nPoverty and public policy\nafmpi (Alkire–Foster multidimensional poverty measurement in Python) · anstat-microsim (tax–benefit microsimulation model)\n\n\nNew data sources\npanel_admin_data (ETL pipeline for public-sector payroll data, 2015–2025) · Webscraping_Offre_Emploi (collection and analysis of online job ads) · Estimation_Pauvrete_DeepLearning (poverty estimation from satellite images) · access-remoteness-platform (accessibility and remoteness indicators, with a simulation app) · image_drone (processing of drone imagery)"
   },
   {
     "objectID": "cv/index.html",
